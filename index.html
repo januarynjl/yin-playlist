@@ -1,12 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>小銀歌单</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>懒銀歌单</title>
+    <link href="./layui/css/layui.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to My Personal Page</h1>
-    <p>This is a simple example of a personal page.</p>
+<!-- HTML Content -->
+<table class="layui-hide" id="ID-table-demo-search"></table>
+<script src="./layui/layui.js"></script>
+<script>
+    var playList;
+    layui.define(['jquery'], function(exports){
+        var $ = layui.jquery;
+
+        var fetchData = function(url, callback) {
+            $.getJSON(url, function(data) {
+                callback(data);
+            });
+        };
+
+        exports('dataModule', {fetchData: fetchData}); // 导出模块功能
+    });
+
+
+    // Usage
+    layui.use(function(){
+        var table = layui.table;
+        var dataModule = layui.dataModule;
+        dataModule.fetchData('./data/playList.json', function(data) {
+            console.log(data);
+            playList = data;
+            // 创建表格实例
+            table.render({
+                elem: '#ID-table-demo-search',
+                data: playList,
+                cols: [[
+                    {type: 'numbers', title: '序号',width:80, fixed: true},
+                    {field:'songNm', title: '歌名'},
+                    {field:'pre', title: '首字母', width:80, sort: true},
+                    {field:'singer', title: '歌手',  sort: true},
+                    {field:'sign', title: '风格'},
+                    {field:'upDown', title: '升降调',  width:80}
+                ]],
+                skin: 'line', // 表格风格
+                //even: true,
+                page: true, // 是否显示分页
+                limits: [5, 10, 15],
+                limit: 5 // 每页默认显示的数量
+            });
+        });
+
+
+
+    });
+</script>
 </body>
 </html>
