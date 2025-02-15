@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>懒銀歌单</title>
-    <link href="./layui/css/layui.css" rel="stylesheet">
+    <!-- 引入 layui.css -->
+    <link href="//unpkg.com/layui@2.9.22/dist/css/layui.css" rel="stylesheet">
 </head>
 <body>
 <!-- HTML Content -->
@@ -43,7 +44,7 @@
                     </div>
                 </div>
                 <div class="layui-btn-container layui-col-xs12">
-                    <button class="layui-btn" lay-submit lay-filter="playlist-search" id="btn-submit">搜索</button>
+                    <button class="layui-btn " lay-submit lay-filter="playlist-search" id="btn-submit">搜索</button>
                     <button type="reset" class="layui-btn layui-btn-primary"  id="btn-clear">清除</button>
                 </div>
             </form>
@@ -54,7 +55,8 @@
 
 </div>
 
-<script src="./layui/layui.js"></script>
+<!-- 引入 layui.js -->
+<script src="//unpkg.com/layui@2.9.22/dist/layui.js"></script>
 <script>
     var playList_origin;
     layui.define(['jquery'], function(exports){
