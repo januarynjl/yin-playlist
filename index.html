@@ -8,10 +8,45 @@
 </head>
 <body>
 <!-- HTML Content -->
-<table class="layui-hide" id="ID-table-demo-search"></table>
+<div class="layui-fluid">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <form class="layui-form layui-row layui-col-space16"  lay-filter="search-filter">
+                <div class="layui-col-md3">
+                    <div class="layui-input-wrap">
+                        <input type="text" name="songNm" value="" placeholder="歌名" class="layui-input" lay-affix="clear">
+                    </div>
+                </div>
+                <div class="layui-col-md3">
+                    <div class="layui-input-wrap">
+                        <input type="text" name="singer" placeholder="歌手" lay-affix="clear" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-col-md3">
+                    <div class="layui-input-wrap">
+                        <input type="text" name="sign" placeholder="风格" lay-affix="clear" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-col-md3">
+                    <div class="layui-input-wrap">
+                        <input type="text" name="pre" placeholder="首字母" lay-affix="clear" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-btn-container layui-col-xs12">
+                    <button class="layui-btn" lay-submit lay-filter="playlist-search" id="btn-submit">搜索</button>
+                    <button type="reset" class="layui-btn layui-btn-primary"  id="btn-clear">清除</button>
+                </div>
+            </form>
+
+            <table class="layui-table" id="playList-table"></table>
+        </div>
+    </div>
+
+</div>
+
 <script src="./layui/layui.js"></script>
 <script>
-    var playList;
+    var playList_origin;
     layui.define(['jquery'], function(exports){
         var $ = layui.jquery;
 
@@ -27,34 +62,79 @@
 
     // Usage
     layui.use(function(){
+        var $ = layui.$;
+        var form = layui.form;
         var table = layui.table;
         var dataModule = layui.dataModule;
         dataModule.fetchData('./data/playList.json', function(data) {
-            console.log(data);
-            playList = data;
+            playList_origin = data;
+            playList = playList_origin
             // 创建表格实例
             table.render({
-                elem: '#ID-table-demo-search',
+                elem: '#playList-table',
+                size:'lg',
                 data: playList,
                 cols: [[
-                    {type: 'numbers', title: '序号',width:80, fixed: true},
-                    {field:'songNm', title: '歌名'},
-                    {field:'pre', title: '首字母', width:80, sort: true},
-                    {field:'singer', title: '歌手',  sort: true},
-                    {field:'sign', title: '风格'},
+                    {type: 'numbers', title: '序号',width:60},
+                    {field:'songNm', title: '歌名',maxWidth:300,minWidth:150},
+                    {field:'singer', title: '歌手', width:150},
+                    {field:'sign', title: '风格', width:150},
+                    {field:'pre', title: '首字母', width:80},
                     {field:'upDown', title: '升降调',  width:80}
                 ]],
-                skin: 'line', // 表格风格
-                //even: true,
-                page: true, // 是否显示分页
-                limits: [5, 10, 15],
-                limit: 5 // 每页默认显示的数量
+
+                //skin: 'line', // 表格风格
+                even: true,
+                page: false, // 是否显示分页
+                limits: [10, 20, 50],
+                limit: 20 // 每页默认显示的数量
             });
         });
+        $('#btn-submit').on('click', function(){
+            form.submit('search-filter', function(data){
+                var field = data.field; // 获取表单全部字段值
+                console.log(field);// 回调函数返回的 data 参数和提交事件中返回的一致
+                search(field);
 
+            });
+            return false;
+        });
+        $('#btn-clear').on('click', function(){
+            search({songNm: '', singer: '', sign: '', pre: ''})
+        });
+        function search(field){
+            let filter_list = []
+            let cdata = playList_origin;
+            if(field.songNm == "" && field.singer == "" && field.sign == ""  && field.pre == ""){
+                filter_list = cdata;
+            }else{
+                $.each(cdata, function (i, row) {
+                    var isSearchInRow = 0;
+                    if(field.songNm != "" && row.songNm.indexOf(field.songNm)> -1){
+                        isSearchInRow = 1;
+                    }
+                    if(field.singer != "" && row.singer.indexOf(field.singer)> -1){
+                        isSearchInRow = 1;
+                    }
+                    if(field.sign != "" && row.sign.indexOf(field.sign)> -1){
+                        isSearchInRow = 1;
+                    }
+                    if(field.pre != "" && row.pre == field.pre.toUpperCase()){
+                        isSearchInRow = 1;
+                    }
+                    if (isSearchInRow == 1) {
+                        filter_list.push(row)
 
-
+                    }
+                });
+            }
+            // 执行搜索重载
+            table.reload('playList-table', {
+                data: filter_list,
+            });
+        }
     });
+
 </script>
 </body>
 </html>
