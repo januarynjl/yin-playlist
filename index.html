@@ -10,6 +10,7 @@
 <!-- HTML Content -->
 <div class="layui-fluid">
     <div class="layui-card">
+        <div class="layui-card-header"><p style="text-align: center">懒銀歌单 总数：<span id="count">0</span></p></div>
         <div class="layui-card-body">
             <form class="layui-form layui-row layui-col-space16"  lay-filter="search-filter">
                 <div class="layui-col-md3">
@@ -24,7 +25,16 @@
                 </div>
                 <div class="layui-col-md3">
                     <div class="layui-input-wrap">
-                        <input type="text" name="sign" placeholder="风格" lay-affix="clear" class="layui-input">
+                       <!-- <input type="text" name="sign" placeholder="风格" lay-affix="clear" class="layui-input">-->
+                        <select class="layui-input" name="sign" placeholder="风格"  lay-affix="clear">
+                            <option value="">风格</option>
+                            <option value="悲伤情歌">悲伤情歌</option>
+                            <option value="古风国风">古风国风</option>
+                            <option value="活泼可爱">活泼可爱</option>
+                            <option value="温柔治愈">温柔治愈</option>
+                            <option value="民谣乐队">民谣乐队</option>
+                            <option value="喧嚣帅气">喧嚣帅气</option>
+                        </select>
                     </div>
                 </div>
                 <div class="layui-col-md3">
@@ -68,7 +78,8 @@
         var dataModule = layui.dataModule;
         dataModule.fetchData('./data/playList.json', function(data) {
             playList_origin = data;
-            playList = playList_origin
+            $("#count").text(data.length);
+            playList = playList_origin;
             // 创建表格实例
             table.render({
                 elem: '#playList-table',
