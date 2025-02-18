@@ -123,10 +123,10 @@
             }else{
                 $.each(cdata, function (i, row) {
                     var isSearchInRow = 0;
-                    if(field.songNm != "" && row.songNm.indexOf(field.songNm)> -1){
+                    if(field.songNm != "" && row.songNm.toUpperCase().indexOf(field.songNm.toUpperCase())> -1){
                         isSearchInRow = 1;
                     }
-                    if(field.singer != "" && row.singer.indexOf(field.singer)> -1){
+                    if(field.singer != "" && row.singer.toUpperCase().indexOf(field.singer.toUpperCase())> -1){
                         isSearchInRow = 1;
                     }
                     if(field.sign != "" && row.sign.indexOf(field.sign)> -1){
