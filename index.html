@@ -120,6 +120,17 @@
             let cdata = playList_origin;
             if(field.songNm == "" && field.singer == "" && field.sign == ""  && field.pre == ""){
                 filter_list = cdata;
+            }else if(field.pre =="open"){
+                table.reload('playList-table', {
+                    cols: [[
+                        {type: 'numbers', title: '序号',width:60},
+                        {field:'songNm', title: '歌名',maxWidth:300,minWidth:150},
+                        {field:'singer', title: '歌手', width:150},
+                        {field:'sign', title: '风格', width:150},
+                        {field:'pre', title: '首字母', width:80},
+                        {field:'upDown', title: '升降调',  width:80}
+                    ]],
+                });
             }else{
                 $.each(cdata, function (i, row) {
                     var isSearchInRow = 0;
