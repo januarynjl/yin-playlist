@@ -17,18 +17,18 @@
             <form class="layui-form layui-row layui-col-space16"  lay-filter="search-filter">
                 <div class="layui-col-md3">
                     <div class="layui-input-wrap">
-                        <input type="text" name="songNm" value="" placeholder="歌名" class="layui-input" lay-affix="clear">
+                        <input type="text" name="sName" value="" placeholder="歌名" class="layui-input" lay-affix="clear">
                     </div>
                 </div>
                 <div class="layui-col-md3">
                     <div class="layui-input-wrap">
-                        <input type="text" name="singer" placeholder="歌手" lay-affix="clear" class="layui-input">
+                        <input type="text" name="sSinger" placeholder="歌手" lay-affix="clear" class="layui-input">
                     </div>
                 </div>
                 <div class="layui-col-md3">
                     <div class="layui-input-wrap">
-                       <!-- <input type="text" name="sign" placeholder="风格" lay-affix="clear" class="layui-input">-->
-                        <select class="layui-input" name="sign" placeholder="风格"  lay-affix="clear">
+                       <!-- <input type="text" name="sSign" placeholder="风格" lay-affix="clear" class="layui-input">-->
+                        <select class="layui-input" name="sSign" placeholder="风格"  lay-affix="clear">
                             <option value="">风格</option>
                             <option value="悲伤情歌">悲伤情歌</option>
                             <option value="古风国风">古风国风</option>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="layui-col-md3">
                     <div class="layui-input-wrap">
-                        <input type="text" name="pre" placeholder="首字母" lay-affix="clear" class="layui-input">
+                        <input type="text" name="sPre" placeholder="首字母" lay-affix="clear" class="layui-input">
                     </div>
                 </div>
                 <div class="layui-btn-container layui-col-xs12">
@@ -90,11 +90,12 @@
                 data: playList,
                 cols: [[
                     {type: 'numbers', title: '序号',width:60},
-                    {field:'songNm', title: '歌名',maxWidth:300,minWidth:150},
-                    {field:'singer', title: '歌手', width:150},
-                    {field:'sign', title: '风格', width:150},
-                    {field:'pre', title: '首字母', width:80}/*,
-                    {field:'upDown', title: '升降调',  width:80}*/
+                    {field:'sName', title: '歌名',maxWidth:300,minWidth:150},
+                    {field:'sSinger', title: '歌手', width:150},
+                    {field:'sSign', title: '风格', width:120},
+                    {field:'sumCount', title: '点歌次数', width:90},
+                    {field:'sPre', title: '首字母', width:80}/*,
+                    {field:'sUpDown', title: '升降调',  width:80}*/
                 ]],
 
                 //skin: 'line', // 表格风格
@@ -114,40 +115,60 @@
             return false;
         });
         $('#btn-clear').on('click', function(){
-            search({songNm: '', singer: '', sign: '', pre: ''})
+            search({sName: '', sSinger: '', sSign: '', sPre: ''})
         });
         function search(field){
             let filter_list = []
             let cdata = playList_origin;
-            if(field.songNm == "" && field.singer == "" && field.sign == ""  && field.pre == ""){
+            if(field.sName == "" && field.sSinger == "" && field.sSign == ""  && field.sPre == ""){
                 filter_list = cdata;
-            }else if(field.pre =="open"){
+            }else if(field.sPre =="open"){
                 table.reload('playList-table', {
                     cols: [[
                         {type: 'numbers', title: '序号',width:60},
-                        {field:'songNm', title: '歌名',maxWidth:300,minWidth:150},
-                        {field:'singer', title: '歌手', width:150},
-                        {field:'sign', title: '风格', width:150},
-                        {field:'pre', title: '首字母', width:80},
-                        {field:'upDown', title: '升降调',  width:80}
+                        {field:'sName', title: '歌名',maxWidth:300,minWidth:150},
+                        {field:'sSinger', title: '歌手', width:150},
+                        {field:'sSign', title: '风格', width:120},
+                        {field:'sumCount', title: '点歌次数', width:90},
+                        {field:'sPre', title: '首字母', width:80},
+                        {field:'sUpDown', title: '升降调',  width:80}
                     ]],
                 });
             }else{
                 $.each(cdata, function (i, row) {
-                    var isSearchInRow = 0;
-                    if(field.songNm != "" && row.songNm.toUpperCase().indexOf(field.songNm.toUpperCase())> -1){
-                        isSearchInRow = 1;
+                    var isSearchInRow_sName = false
+                    var isSearchInRow_sSinger = false;
+                    var isSearchInRow_sSign = false;
+                    var isSearchInRow_sPre = false;
+                    if(field.sName != "" && row.sName.toUpperCase().indexOf(field.sName.toUpperCase())> -1){
+                        isSearchInRow_sName = true;
+                    }else{
+                        if(field.sName == ""){
+                            isSearchInRow_sName = true;
+                        }
                     }
-                    if(field.singer != "" && row.singer.toUpperCase().indexOf(field.singer.toUpperCase())> -1){
-                        isSearchInRow = 1;
+                    if(field.sSinger != "" && row.sSinger.toUpperCase().indexOf(field.sSinger.toUpperCase())> -1){
+                        isSearchInRow_sSinger = true;
+                    }else{
+                        if(field.sSinger == ""){
+                            isSearchInRow_sSinger = true;
+                        }
                     }
-                    if(field.sign != "" && row.sign.indexOf(field.sign)> -1){
-                        isSearchInRow = 1;
+                    if(field.sSign != "" && row.sSign.indexOf(field.sSign)> -1){
+                        isSearchInRow_sSign = true;
+                    }else{
+                        if(field.sSign == ""){
+                            isSearchInRow_sSign = true;
+                        }
                     }
-                    if(field.pre != "" && row.pre == field.pre.toUpperCase()){
-                        isSearchInRow = 1;
+                    if(field.sPre != "" && row.sPre == field.sPre.toUpperCase()){
+                        isSearchInRow_sPre = true;
+                    }else{
+                        if(field.sPre == ""){
+                            isSearchInRow_sPre = true;
+                        }
                     }
-                    if (isSearchInRow == 1) {
+                    if (isSearchInRow_sName && isSearchInRow_sSinger && isSearchInRow_sSign && isSearchInRow_sPre) {
                         filter_list.push(row)
 
                     }
