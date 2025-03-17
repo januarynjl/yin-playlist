@@ -30,10 +30,10 @@
   "sPre" : "A",
   "sUpDown" : "3",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "安和桥",
@@ -605,11 +605,11 @@
   "sSign" : "古风国风",
   "sPre" : "C",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "春不晚",
@@ -1913,11 +1913,11 @@
   "sSign" : "悲伤情歌",
   "sPre" : "J",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "就是这样",
@@ -2177,11 +2177,11 @@
   "sSign" : "古风国风",
   "sPre" : "L",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 1
+  "sumCount" : 2
 }, {
   "id" : null,
   "sName" : "乐游记",
@@ -2525,11 +2525,11 @@
   "sSign" : "温柔治愈",
   "sPre" : "M",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "满天星辰不及你",
