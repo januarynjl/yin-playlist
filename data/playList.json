@@ -402,10 +402,10 @@
   "sPre" : "B",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "贝加尔湖畔",
@@ -1038,10 +1038,10 @@
   "sPre" : "E",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "房间",
@@ -2178,10 +2178,10 @@
   "sPre" : "L",
   "sUpDown" : "0",
   "aCount" : 1,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 2
+  "sumCount" : 3
 }, {
   "id" : null,
   "sName" : "乐游记",
@@ -2478,10 +2478,10 @@
   "sPre" : "M",
   "sUpDown" : "2",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 1
+  "sumCount" : 2
 }, {
   "id" : null,
   "sName" : "明天,你好",
@@ -2669,11 +2669,11 @@
   "sSign" : "温柔治愈",
   "sPre" : "N",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 2,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 2
+  "sumCount" : 3
 }, {
   "id" : null,
   "sName" : "那时正好",
@@ -5165,11 +5165,11 @@
   "sSign" : "悲伤情歌",
   "sPre" : "Y",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "依恋",
@@ -5658,10 +5658,10 @@
   "sPre" : "Y",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "遇见你的时候所有星星都落到我头上",
@@ -5730,10 +5730,10 @@
   "sPre" : "Z",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "怎叹",

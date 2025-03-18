@@ -7,6 +7,11 @@
     <link rel="shortcut icon" href="favicon.ico">
     <!-- 引入 layui.css -->
     <link href="//unpkg.com/layui@2.9.22/dist/css/layui.css" rel="stylesheet">
+    <style type="text/css">
+        .layui-fixbar li{
+            border-radius: 50px;
+        }
+    </style>
 </head>
 <body>
 <!-- HTML Content -->
@@ -79,6 +84,16 @@
         var form = layui.form;
         var table = layui.table;
         var dataModule = layui.dataModule;
+        var util = layui.util;
+        util.fixbar({
+            top: true //返回顶部
+            , css: { right: 15, bottom: 35,'border-radius': '50px' }
+            , bgcolor: '#8BC34A'
+            , click: function (type) {
+
+            }
+        });
+
         dataModule.fetchData('./data/playList.json', function(data) {
             playList_origin = data;
             $("#count").text(data.length);
