@@ -11,6 +11,9 @@
         .layui-fixbar li{
             border-radius: 50px;
         }
+        .search-btn{
+            background-color: #ff98a0;
+        }
     </style>
 </head>
 <body>
@@ -50,8 +53,9 @@
                     </div>
                 </div>
                 <div class="layui-btn-container layui-col-xs12">
-                    <button class="layui-btn " lay-submit lay-filter="playlist-search" id="btn-submit">搜索</button>
+                    <button class="layui-btn search-btn" lay-submit lay-filter="playlist-search" id="btn-submit">搜索</button>
                     <button type="reset" class="layui-btn layui-btn-primary"  id="btn-clear">清除</button>
+                    <button type="button" class="layui-btn layui-btn-primary" lay-on="test-page-wrap">热门歌曲</button>
                 </div>
             </form>
 
@@ -60,7 +64,11 @@
     </div>
 
 </div>
-
+<div id="rank-page" style="display: none;">
+    <div style="padding:0px;">
+        <table class="layui-table" id="rank-table"></table>
+    </div>
+</div>
 <!-- 引入 layui.js -->
 <script src="//unpkg.com/layui@2.9.22/dist/layui.js"></script>
 <script>
@@ -88,12 +96,25 @@
         util.fixbar({
             top: true //返回顶部
             , css: { right: 15, bottom: 35,'border-radius': '50px' }
-            , bgcolor: '#8BC34A'
+            , bgcolor: '#ff98a0'
             , click: function (type) {
 
             }
         });
-
+        util.on('lay-on', {
+            'test-page-wrap': function () {
+                layer.open({
+                    type: 1,
+                    title: false,
+                    area: 'auto',
+                    shade: true, // 不显示遮罩
+                    content: $('#rank-page'), // 捕获的元素
+                    end: function () {
+                        // layer.msg('关闭后的回调', {icon:6});
+                    }
+                });
+            }
+        });
         dataModule.fetchData('./data/playList.json', function(data) {
             playList_origin = data;
             $("#count").text(data.length);
@@ -118,6 +139,30 @@
                 page: false, // 是否显示分页
                 limits: [10, 20, 50],
                 limit: 20 // 每页默认显示的数量
+            });
+
+            var rankList = playList_origin.filter(song => song.sumCount>0);
+            rankList.sort(function (a,b) {
+                return b.sumCount - a.sumCount;
+            });
+
+            // 点歌次数
+            table.render({
+                elem: '#rank-table',
+                size:'lg',
+                data: rankList,
+                cols: [[
+                    {field:'sName', title: '歌名',width:150},
+                    {field:'sumCount', title: '点歌次数', width:90},
+                    {field:'aCount', title: 'A', width:50},
+                    {field:'bCount', title: 'B', width:50},
+                    {field:'sSinger', title: '歌手', width:150},
+                    {field:'sSign', title: '风格', width:120}
+                ]],
+
+                //skin: 'line', // 表格风格
+                even: true,
+                page: false, // 是否显示分页
             });
         });
         $('#btn-submit').on('click', function(){
