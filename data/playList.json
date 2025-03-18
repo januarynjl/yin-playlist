@@ -2178,10 +2178,10 @@
   "sPre" : "L",
   "sUpDown" : "0",
   "aCount" : 1,
-  "bCount" : 2,
+  "bCount" : 3,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 3
+  "sumCount" : 4
 }, {
   "id" : null,
   "sName" : "乐游记",
@@ -2226,10 +2226,10 @@
   "sPre" : "L",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "浪人琵琶",
@@ -2478,10 +2478,10 @@
   "sPre" : "M",
   "sUpDown" : "2",
   "aCount" : 0,
-  "bCount" : 2,
+  "bCount" : 3,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 2
+  "sumCount" : 3
 }, {
   "id" : null,
   "sName" : "明天,你好",
@@ -2790,10 +2790,10 @@
   "sPre" : "N",
   "sUpDown" : "3",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "那年烟花绚烂时,为何没有遇见你",
@@ -3390,10 +3390,10 @@
   "sPre" : "S",
   "sUpDown" : "-2",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "苏公堤",
@@ -3786,10 +3786,10 @@
   "sPre" : "T",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "他与花",
