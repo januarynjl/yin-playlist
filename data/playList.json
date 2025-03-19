@@ -1721,11 +1721,11 @@
   "sSign" : "古风国风",
   "sPre" : "H",
   "sUpDown" : "2",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "和青春来一场偶遇",
@@ -1769,11 +1769,11 @@
   "sSign" : "悲伤情歌",
   "sPre" : "J",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "巨蟹",
@@ -5141,11 +5141,11 @@
   "sSign" : "温柔治愈",
   "sPre" : "Y",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "余味",
