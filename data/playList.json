@@ -138,10 +138,10 @@
   "sPre" : "A",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "爱过你这件事",
@@ -246,10 +246,10 @@
   "sPre" : "B",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "拜无忧",
@@ -1062,10 +1062,10 @@
   "sPre" : "F",
   "sUpDown" : "2",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "飞鸟和蝉",
@@ -1314,10 +1314,10 @@
   "sPre" : "G",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "给电影人的情书",
@@ -1326,10 +1326,10 @@
   "sPre" : "G",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "给我一个理由忘记",
@@ -1494,10 +1494,10 @@
   "sPre" : "H",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "花满楼",
@@ -2178,10 +2178,10 @@
   "sPre" : "L",
   "sUpDown" : "0",
   "aCount" : 2,
-  "bCount" : 3,
+  "bCount" : 4,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 5
+  "sumCount" : 6
 }, {
   "id" : null,
   "sName" : "乐游记",
@@ -2478,10 +2478,10 @@
   "sPre" : "M",
   "sUpDown" : "2",
   "aCount" : 0,
-  "bCount" : 3,
+  "bCount" : 4,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 3
+  "sumCount" : 4
 }, {
   "id" : null,
   "sName" : "明天,你好",
@@ -2538,10 +2538,10 @@
   "sPre" : "M",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "马来西亚的查某",
@@ -2838,10 +2838,10 @@
   "sPre" : "P",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "菩提偈",
@@ -3030,10 +3030,10 @@
   "sPre" : "Q",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "气象站台",
@@ -3474,10 +3474,10 @@
   "sPre" : "S",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "随风而来",
@@ -4602,10 +4602,10 @@
   "sPre" : "W",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "我喜欢上你时的内心活动",
@@ -4638,10 +4638,10 @@
   "sPre" : "X",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "小半",
@@ -5658,10 +5658,10 @@
   "sPre" : "Y",
   "sUpDown" : "0",
   "aCount" : 1,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 2
+  "sumCount" : 3
 }, {
   "id" : null,
   "sName" : "遇见你的时候所有星星都落到我头上",
