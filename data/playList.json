@@ -726,10 +726,10 @@
   "sPre" : "C",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "成为你的所有",
@@ -1962,10 +1962,10 @@
   "sPre" : "J",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "今天也想见到你",
@@ -2178,10 +2178,10 @@
   "sPre" : "L",
   "sUpDown" : "0",
   "aCount" : 2,
-  "bCount" : 4,
+  "bCount" : 5,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 6
+  "sumCount" : 7
 }, {
   "id" : null,
   "sName" : "乐游记",
@@ -2322,10 +2322,10 @@
   "sPre" : "M",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "觅香",
@@ -2538,10 +2538,10 @@
   "sPre" : "M",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 1
+  "sumCount" : 2
 }, {
   "id" : null,
   "sName" : "马来西亚的查某",
@@ -2550,10 +2550,10 @@
   "sPre" : "M",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "漫步在岁月洪流",
@@ -3798,10 +3798,10 @@
   "sPre" : "T",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "他和她",
@@ -4338,10 +4338,10 @@
   "sPre" : "W",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "我怀念的",
@@ -4638,10 +4638,10 @@
   "sPre" : "X",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 1
+  "sumCount" : 2
 }, {
   "id" : null,
   "sName" : "小半",
@@ -4698,10 +4698,10 @@
   "sPre" : "X",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "西狂",
@@ -5658,10 +5658,10 @@
   "sPre" : "Y",
   "sUpDown" : "0",
   "aCount" : 1,
-  "bCount" : 2,
+  "bCount" : 3,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 3
+  "sumCount" : 4
 }, {
   "id" : null,
   "sName" : "遇见你的时候所有星星都落到我头上",
@@ -5862,10 +5862,10 @@
   "sPre" : "Z",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : null,
   "updateTime" : null,
-  "sumCount" : 0
+  "sumCount" : 1
 }, {
   "id" : null,
   "sName" : "昨日青空",
