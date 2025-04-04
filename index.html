@@ -25,8 +25,19 @@
         }
         .laydate-day-holidays::before {
             content: "啵";
-            color: #ff98a0;
+            color: #FD4C5B;
         }
+        .laydate-day-mark::after {
+            content: "B";
+            background-color: transparent;
+            color: #ff98a0;
+            position: absolute;
+            right: 6px;
+            top: -4px;
+            font-size: 12px;
+            transform: scale(.7);
+        }
+
         .count{
             color: #ff98a0;
         }
@@ -129,10 +140,55 @@
                 holidays:[data,[]],
                 showBottom: false,
                 autoConfirm : false,
+                btns: ['confirm'],
                 theme: '#ff98a0',
                 disabledDate: function(date, type){
                     return date.getTime() > Date.now();
+                },
+                change: function(value, date) {
+                    this.cellRender(date);
+                },
+                ready: function (date) {
+                    if (!this._previewEl) {
+                        var key = this.elem.attr('lay-key');
+                        var panelEl = $('#layui-laydate' + key);
+                        this._previewEl = panelEl.find('.layui-laydate-preview');
+                        this.cellRender(date);
+                    }
+                },
+                cellRender: function (ymd, render, info) {
+                    var that = this;
+                    var y = ymd.year;
+                    var m = ymd.month;
+                    var d = ymd.date;
+                    if(info === undefined){
+                        return;
+                    }
+                    console.log(layui.util.toDateString(new Date(y, m-1, d), 'yyyy-MM-dd'))
+                    if (info.type == 'date') {
+                        var clazz = [
+                            'date-cell-inner laydate-day-mark laydate-day-holidays',
+                        ].join(' ');
+                        var content = [
+                            '<div class="' + clazz + '">',
+                            '<b>' + d + '</b>',
+                            '</div>',
+                        ].join('');
+                        // render(content)
+                        // render($(content)[0])
+                        var contentEl = $(content);
+                        render(contentEl);
+                    }
                 }
+            });
+
+            // 双击我触发
+            lay('#live-date').on('dblclick', function(){
+                laydate.render({
+                    elem: '#ID-laydate-more-dblclick-input',
+                    show: true,
+                    closeStop: '#ID-laydate-more-dblclick',
+                });
             });
         });
 
@@ -223,6 +279,8 @@
         $('#btn-clear').on('click', function(){
             search({sName: '', sSinger: '', sSign: '', sPre: ''})
         });
+
+
         function search(field){
             let filter_list = []
             let cdata = playList_origin;
