@@ -23,13 +23,23 @@
         .layui-btn-primary:hover {
             border-color: #ff98a0;
         }
+        .laydate-day-holidays::before {
+            content: "啵";
+            color: #ff98a0;
+        }
+        .count{
+            color: #ff98a0;
+        }
     </style>
 </head>
 <body>
 <!-- HTML Content -->
 <div class="layui-fluid">
     <div class="layui-card">
-        <div class="layui-card-header"><p style="text-align: center">懒銀歌单 总数：<span id="count">0</span></p></div>
+        <div class="layui-card-header">
+            <p style="text-align: center">懒銀歌单【<span class="count" id="count">0</span>】&nbsp;&nbsp;2025直播天数【<span class="count" id="dateCount">0</span>】</p>
+            <p style="text-align: center"></p>
+        </div>
         <div class="layui-card-body">
             <form class="layui-form layui-row layui-col-space16"  lay-filter="search-filter">
                 <div class="layui-col-md3">
@@ -65,6 +75,7 @@
                     <button class="layui-btn search-btn" lay-submit lay-filter="playlist-search" id="btn-submit">搜索</button>
                     <button type="reset" class="layui-btn layui-btn-primary"  id="btn-clear">清除</button>
                     <button type="button" class="layui-btn layui-btn-primary" lay-on="test-page-wrap">热门歌曲</button>
+                    <button type="button" class="layui-btn layui-btn-primary" id="live-date">直播日历</button>
                 </div>
             </form>
 
@@ -102,6 +113,23 @@
         var table = layui.table;
         var dataModule = layui.dataModule;
         var util = layui.util;
+        var laydate = layui.laydate;
+
+        dataModule.fetchData('./data/liveDateList.json', function(data) {
+            $("#dateCount").text(data.length);
+            // 渲染
+            laydate.render({
+                elem: '#live-date',
+                holidays:[data,[]],
+                showBottom: false,
+                autoConfirm : false,
+                theme: '#ff98a0',
+                disabledDate: function(date, type){
+                    return date.getTime() > Date.now();
+                }
+            });
+        });
+
         util.fixbar({
             top: true //返回顶部
             , css: { right: 15, bottom: 35,'border-radius': '50px' }
