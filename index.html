@@ -24,9 +24,22 @@
             border-color: #ff98a0;
         }
         .laydate-day-holidays::before {
-            content: "啵";
-            color: #ff98a0;
+            content: "A";
+            color: #FD4C5B;
+            left: 2px;
+            transform: scale(.8);
         }
+        .laydate-B::after {
+            content: "B";
+            background-color: transparent;
+            color: #23ade5;
+            position: absolute;
+            top: 0;
+            right: 2px;
+            font-size: 12px;
+            transform: scale(.8);
+        }
+
         .count{
             color: #ff98a0;
         }
@@ -121,18 +134,76 @@
         var util = layui.util;
         var laydate = layui.laydate;
 
+        var liveDateList_A;
+        var liveDateList_B;
+        dataModule.fetchData('./data/liveDateList_A.json', function(data) {
+            liveDateList_A = data
+        });
+        dataModule.fetchData('./data/liveDateList_B.json', function(data) {
+            liveDateList_B = data
+        });
         dataModule.fetchData('./data/liveDateList.json', function(data) {
             $("#dateCount").text(data.length);
             // 渲染
             laydate.render({
                 elem: '#live-date',
-                holidays:[data,[]],
+                //holidays:[data,[]],
                 showBottom: false,
                 autoConfirm : false,
-                theme: '#ff98a0',
+                btns: ['confirm'],
+                theme: ['#ff98a0','grid'],
                 disabledDate: function(date, type){
                     return date.getTime() > Date.now();
+                },
+                change: function(value, date) {
+                    this.cellRender(date);
+                },
+                ready: function (date) {
+                    if (!this._previewEl) {
+                        var key = this.elem.attr('lay-key');
+                        var panelEl = $('#layui-laydate' + key);
+                        this._previewEl = panelEl.find('.layui-laydate-preview');
+                        this.cellRender(date);
+                    }
+                },
+                cellRender: function (ymd, render, info) {
+                    var that = this;
+                    var y = ymd.year;
+                    var m = ymd.month;
+                    var d = ymd.date;
+                    if (!render) return;
+                    if(info === undefined){
+                        return;
+                    }
+                    var date = layui.util.toDateString(new Date(y, m-1, d), 'yyyy-MM-dd');
+                    var is_A = liveDateList_A.includes(date);
+                    var is_B = liveDateList_B.includes(date);
+                    if (info.type == 'date') {
+                        var clazz = [
+                            'date-cell-inner',
+                            is_A ? 'laydate-day-holidays' : '',
+                            is_B ? 'laydate-B' : '',
+                        ].join(' ');
+                        var content = [
+                            '<div class="' + clazz + '">',
+                            '<b>' + d + '</b>',
+                            '</div>',
+                        ].join('');
+                        // render(content)
+                        // render($(content)[0])
+                        var contentEl = $(content);
+                        render(contentEl);
+                    }
                 }
+            });
+
+            // 双击我触发
+            lay('#live-date').on('dblclick', function(){
+                laydate.render({
+                    elem: '#ID-laydate-more-dblclick-input',
+                    show: true,
+                    closeStop: '#ID-laydate-more-dblclick',
+                });
             });
         });
 
@@ -223,6 +294,8 @@
         $('#btn-clear').on('click', function(){
             search({sName: '', sSinger: '', sSign: '', sPre: ''})
         });
+
+
         function search(field){
             let filter_list = []
             let cdata = playList_origin;
