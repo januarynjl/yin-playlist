@@ -50,6 +50,13 @@
             margin-right: 5px;
             margin-bottom: 1px;
         }
+        .broadcost_A{
+            margin-right: 74px;
+            background-color: #FD4C5B;
+        }
+        .broadcost_B{
+            background-color: #23ade5;
+        }
     </style>
 </head>
 <body>
@@ -95,6 +102,7 @@
                     <button type="reset" class="layui-btn layui-btn-primary"  id="btn-clear">清除</button>
                     <button type="button" class="layui-btn layui-btn-primary" lay-on="test-page-wrap">热门歌曲</button>
                     <button type="button" class="layui-btn layui-btn-primary" id="live-date">直播日历</button>
+                    <input type="hidden" id="live-date-val">
                 </div>
             </form>
 
@@ -134,48 +142,81 @@
         var util = layui.util;
         var laydate = layui.laydate;
 
+        var broadcastMap = new Map();
         var liveDateList_A;
         var liveDateList_B;
+        dataModule.fetchData('./data/broadcastMap.json', function(data) {
+            Object.entries(data).forEach(([key, value]) => {
+                broadcastMap.set(key, value);
+            });
+        });
         dataModule.fetchData('./data/liveDateList_A.json', function(data) {
-            liveDateList_A = data
+            liveDateList_A = data;
         });
         dataModule.fetchData('./data/liveDateList_B.json', function(data) {
-            liveDateList_B = data
+            liveDateList_B = data;
         });
+
         dataModule.fetchData('./data/liveDateList.json', function(data) {
             $("#dateCount").text(data.length);
             // 渲染
             laydate.render({
-                elem: '#live-date',
+                eventElem: '#live-date',
+                trigger: 'click',
+                elem: '#live-date-val',
+                value: new Date(new Date().setDate(new Date().getDate() - 1)),
+                id:'live-date',
                 //holidays:[data,[]],
-                showBottom: false,
+                showBottom: true,
                 autoConfirm : false,
-                btns: ['confirm'],
+                btns: [],
                 theme: ['#ff98a0','grid'],
                 disabledDate: function(date, type){
                     return date.getTime() > Date.now();
                 },
+
                 change: function(value, date) {
                     this.cellRender(date);
+                    $("#live-date").text("直播日历");
                 },
                 ready: function (date) {
-                    if (!this._previewEl) {
-                        var key = this.elem.attr('lay-key');
-                        var panelEl = $('#layui-laydate' + key);
-                        this._previewEl = panelEl.find('.layui-laydate-preview');
-                        this.cellRender(date);
-                    }
+                    var key = this.elem.attr('lay-key');
+                    var panelEl = $('#layui-laydate' + key);
+                    this._previewEl = panelEl.find('.layui-laydate-preview');
+                    this.cellRender(date);
+                    this.setValue(layui.util.toDateString(new Date(new Date().setDate(new Date().getDate() - 1)), 'yyyy-MM-dd'));
                 },
                 cellRender: function (ymd, render, info) {
                     var that = this;
                     var y = ymd.year;
                     var m = ymd.month;
                     var d = ymd.date;
-                    if (!render) return;
-                    if(info === undefined){
-                        return;
-                    }
                     var date = layui.util.toDateString(new Date(y, m-1, d), 'yyyy-MM-dd');
+                    if (that._previewEl && (!info || (info && info.type === "date"))) {
+
+                        if(broadcastMap.has(date)){
+                            let broadcastList = broadcastMap.get(date);
+                            let text = '';
+                            for (let i = 0; i < broadcastList.length; i++) {
+                                text += '<a class="broadcost_'+broadcastList[i].pt+' layui-btn layui-btn-xs layui-btn-normal" target="_blank" href="'+broadcastList[i].url+'">'+broadcastList[i].pt+'录播链接' + '</a>';
+                            }
+                            var tipsText = [
+                                '<div class="preview-inner">',
+                                text,
+                                '</div>'
+                            ].join('');
+                            that._previewEl.html(tipsText);
+                        }else{
+                            var tipsText = [
+                                '<div class="preview-inner">',
+                                '<div style="color:#333;">暂无录播</div>',
+                                '</div>'
+                            ].join('');
+                            that._previewEl.html(tipsText);
+                        }
+                    }
+                    if (!render) return;
+
                     var is_A = liveDateList_A.includes(date);
                     var is_B = liveDateList_B.includes(date);
                     if (info.type == 'date') {
@@ -194,16 +235,9 @@
                         var contentEl = $(content);
                         render(contentEl);
                     }
-                }
-            });
 
-            // 双击我触发
-            lay('#live-date').on('dblclick', function(){
-                laydate.render({
-                    elem: '#ID-laydate-more-dblclick-input',
-                    show: true,
-                    closeStop: '#ID-laydate-more-dblclick',
-                });
+
+                }
             });
         });
 
