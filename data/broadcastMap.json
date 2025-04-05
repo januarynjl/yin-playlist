@@ -1,12 +1,12 @@
 {
   "2025-04-01" : [ {
     "liveDate" : "2025-04-01",
-    "url" : "https://www.bilibili.com/video/BV1x8RRYVEy7/",
-    "pt" : "B"
-  }, {
-    "liveDate" : "2025-04-01",
     "url" : "https://www.acfun.cn/v/ac47099844",
     "pt" : "A"
+  }, {
+    "liveDate" : "2025-04-01",
+    "url" : "https://www.bilibili.com/video/BV1x8RRYVEy7/",
+    "pt" : "B"
   } ],
   "2025-04-02" : [ {
     "liveDate" : "2025-04-02",
