@@ -317,11 +317,11 @@
   "sSign" : "古风国风",
   "sPre" : "B",
   "sUpDown" : "2",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1743775587000,
+  "sumCount" : 1,
   "isHot" : 0
 }, {
   "id" : null,
@@ -720,11 +720,11 @@
   "sSign" : "悲伤情歌",
   "sPre" : "C",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1743775587000,
+  "sumCount" : 1,
   "isHot" : 0
 }, {
   "id" : null,
@@ -2579,11 +2579,11 @@
   "sSign" : "古风国风",
   "sPre" : "M",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1743775587000,
+  "sumCount" : 1,
   "isHot" : 0
 }, {
   "id" : null,
@@ -4555,12 +4555,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "W",
   "sUpDown" : "0",
-  "aCount" : 7,
+  "aCount" : 8,
   "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : 1741698903000,
-  "sumCount" : 8,
-  "isHot" : 3
+  "updateTime" : 1743775587000,
+  "sumCount" : 9,
+  "isHot" : 4
 }, {
   "id" : null,
   "sName" : "我能借",
@@ -5023,12 +5023,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "X",
   "sUpDown" : "-1",
-  "aCount" : 5,
+  "aCount" : 6,
   "bCount" : 5,
   "createTime" : 1742046473000,
-  "updateTime" : 1742913512000,
-  "sumCount" : 10,
-  "isHot" : 8
+  "updateTime" : 1743775587000,
+  "sumCount" : 11,
+  "isHot" : 9
 }, {
   "id" : null,
   "sName" : "小半",
@@ -6453,11 +6453,11 @@
   "sSign" : "悲伤情歌",
   "sPre" : "Z",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1743775587000,
+  "sumCount" : 1,
   "isHot" : 0
 }, {
   "id" : null,
@@ -6518,11 +6518,11 @@
   "sSign" : "温柔治愈",
   "sPre" : "Z",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1743775587000,
+  "sumCount" : 1,
   "isHot" : 0
 }, {
   "id" : null,
