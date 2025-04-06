@@ -26,5 +26,14 @@
     "liveDate" : "2025-04-04",
     "url" : "https://www.bilibili.com/video/BV1tKRdYUEkR/",
     "pt" : "B"
+  } ],
+  "2025-04-05" : [ {
+    "liveDate" : "2025-04-05",
+    "url" : "https://www.acfun.cn/v/ac47101363",
+    "pt" : "A"
+  }, {
+    "liveDate" : "2025-04-05",
+    "url" : "https://www.bilibili.com/video/BV1DmRZYtEpj/",
+    "pt" : "B"
   } ]
 }
