@@ -673,7 +673,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1743514628000,
   "sumCount" : 2,
-  "isHot" : 2
+  "isHot" : 0
 }, {
   "id" : null,
   "sName" : "钗头凤",
@@ -1501,11 +1501,11 @@
   "sPre" : "H",
   "sUpDown" : "3",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1742644185000,
-  "sumCount" : 1,
-  "isHot" : 0
+  "updateTime" : 1744269575000,
+  "sumCount" : 2,
+  "isHot" : 2
 }, {
   "id" : null,
   "sName" : "翻",
@@ -2358,12 +2358,12 @@
   "sSign" : "古风国风",
   "sPre" : "L",
   "sUpDown" : "0",
-  "aCount" : 10,
+  "aCount" : 11,
   "bCount" : 11,
   "createTime" : 1742046473000,
-  "updateTime" : 1744198344000,
-  "sumCount" : 21,
-  "isHot" : 17
+  "updateTime" : 1744291922000,
+  "sumCount" : 22,
+  "isHot" : 18
 }, {
   "id" : null,
   "sName" : "乐游记",
@@ -4452,10 +4452,10 @@
   "sPre" : "W",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1744265778000,
+  "sumCount" : 1,
   "isHot" : 0
 }, {
   "id" : null,
@@ -4560,7 +4560,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1743775587000,
   "sumCount" : 9,
-  "isHot" : 3
+  "isHot" : 2
 }, {
   "id" : null,
   "sName" : "我能借",
@@ -5938,7 +5938,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1739109341000,
   "sumCount" : 3,
-  "isHot" : 2
+  "isHot" : 0
 }, {
   "id" : null,
   "sName" : "要幸福啊",
@@ -6453,12 +6453,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "Z",
   "sUpDown" : "-1",
-  "aCount" : 1,
+  "aCount" : 2,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : 1743775587000,
-  "sumCount" : 1,
-  "isHot" : 0
+  "updateTime" : 1744291922000,
+  "sumCount" : 2,
+  "isHot" : 2
 }, {
   "id" : null,
   "sName" : "这就是爱情",
