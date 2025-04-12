@@ -578,10 +578,10 @@
   "sPre" : "C",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1744364785000,
+  "sumCount" : 1,
   "isHot" : 0
 }, {
   "id" : null,
@@ -855,7 +855,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1743602434000,
   "sumCount" : 3,
-  "isHot" : 2
+  "isHot" : 0
 }, {
   "id" : null,
   "sName" : "凋落",
@@ -1357,11 +1357,11 @@
   "sSign" : "民谣乐队杂食",
   "sPre" : "G",
   "sUpDown" : "3",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1744379465000,
+  "sumCount" : 1,
   "isHot" : 0
 }, {
   "id" : null,
@@ -4711,11 +4711,11 @@
   "sSign" : "温柔治愈",
   "sPre" : "W",
   "sUpDown" : "3",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1744379465000,
+  "sumCount" : 1,
   "isHot" : 0
 }, {
   "id" : null,
@@ -5739,10 +5739,10 @@
   "sPre" : "Y",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1744362589000,
+  "sumCount" : 1,
   "isHot" : 0
 }, {
   "id" : null,
@@ -6133,7 +6133,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1742399253000,
   "sumCount" : 9,
-  "isHot" : 8
+  "isHot" : 7
 }, {
   "id" : null,
   "sName" : "遇见你的时候所有星星都落到我头上",
@@ -6414,12 +6414,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "Z",
   "sUpDown" : "0",
-  "aCount" : 5,
+  "aCount" : 6,
   "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1741436140000,
-  "sumCount" : 7,
-  "isHot" : 0
+  "updateTime" : 1744379465000,
+  "sumCount" : 8,
+  "isHot" : 2
 }, {
   "id" : null,
   "sName" : "字正腔圆",
