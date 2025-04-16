@@ -794,7 +794,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1742132313000,
   "sumCount" : 5,
-  "isHot" : 3,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -1769,11 +1769,11 @@
   "sSign" : "古风国风",
   "sPre" : "G",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1744712868000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1744724097000,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 1
 }, {
@@ -2936,7 +2936,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1744710498000,
   "sumCount" : 24,
-  "isHot" : 19,
+  "isHot" : 18,
   "isNew" : 0
 }, {
   "id" : null,
@@ -4868,7 +4868,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1743602434000,
   "sumCount" : 4,
-  "isHot" : 0,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -7817,11 +7817,11 @@
   "sSign" : "民谣乐队杂食",
   "sPre" : "Y",
   "sUpDown" : "2",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1744712868000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1744724097000,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 1
 }, {
