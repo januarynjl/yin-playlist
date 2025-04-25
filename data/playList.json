@@ -901,12 +901,12 @@
   "sSign" : "古风国风",
   "sPre" : "C",
   "sUpDown" : "0",
-  "aCount" : 1,
+  "aCount" : 2,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : 1743862323000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1745499829000,
+  "sumCount" : 2,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -1252,10 +1252,10 @@
   "sPre" : "D",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1745474604000,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -1574,11 +1574,11 @@
   "sPre" : "G",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1745147439000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1745509914000,
+  "sumCount" : 2,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2176,11 +2176,11 @@
   "sPre" : "H",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1743321318000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1745470675000,
+  "sumCount" : 2,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2194,7 +2194,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1743342100000,
   "sumCount" : 4,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2754,7 +2754,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1743342100000,
   "sumCount" : 4,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2792,10 +2792,10 @@
   "sPre" : "K",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1745474576000,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -2932,11 +2932,11 @@
   "sPre" : "L",
   "sUpDown" : "0",
   "aCount" : 11,
-  "bCount" : 13,
+  "bCount" : 14,
   "createTime" : 1742046473000,
-  "updateTime" : 1744710498000,
-  "sumCount" : 24,
-  "isHot" : 12,
+  "updateTime" : 1745470001000,
+  "sumCount" : 25,
+  "isHot" : 13,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3730,10 +3730,10 @@
   "sPre" : "N",
   "sUpDown" : "3",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1742298597000,
-  "sumCount" : 1,
+  "updateTime" : 1745468946000,
+  "sumCount" : 2,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -3786,10 +3786,10 @@
   "sPre" : "N",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1744712868000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1745469125000,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 1
 }, {
@@ -3968,10 +3968,10 @@
   "sPre" : "Q",
   "sUpDown" : "-1",
   "aCount" : 2,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : 1741964012000,
-  "sumCount" : 2,
+  "updateTime" : 1745510059000,
+  "sumCount" : 3,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -4066,10 +4066,10 @@
   "sPre" : "Q",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1742465936000,
-  "sumCount" : 1,
+  "updateTime" : 1745469586000,
+  "sumCount" : 2,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -6100,7 +6100,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1744793134000,
   "sumCount" : 2,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6394,7 +6394,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1744873563000,
   "sumCount" : 13,
-  "isHot" : 6,
+  "isHot" : 5,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6754,10 +6754,10 @@
   "sPre" : "X",
   "sUpDown" : "0",
   "aCount" : 1,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : 1741351630000,
-  "sumCount" : 1,
+  "updateTime" : 1745470637000,
+  "sumCount" : 2,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -8144,7 +8144,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1744792698000,
   "sumCount" : 9,
-  "isHot" : 3,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
