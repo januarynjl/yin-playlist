@@ -2194,7 +2194,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1743342100000,
   "sumCount" : 4,
-  "isHot" : 0,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2544,7 +2544,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1744899885000,
   "sumCount" : 2,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2936,7 +2936,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1745470001000,
   "sumCount" : 25,
-  "isHot" : 13,
+  "isHot" : 11,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3086,10 +3086,10 @@
   "sPre" : "L",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1744712868000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1745582849000,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 1
 }, {
@@ -3352,11 +3352,11 @@
   "sPre" : "M",
   "sUpDown" : "2",
   "aCount" : 0,
-  "bCount" : 6,
+  "bCount" : 7,
   "createTime" : 1742046473000,
-  "updateTime" : 1744424929000,
-  "sumCount" : 6,
-  "isHot" : 2,
+  "updateTime" : 1745582200000,
+  "sumCount" : 7,
+  "isHot" : 3,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3538,7 +3538,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1745418293000,
   "sumCount" : 4,
-  "isHot" : 4,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6394,7 +6394,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1744873563000,
   "sumCount" : 13,
-  "isHot" : 5,
+  "isHot" : 4,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6408,7 +6408,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1743862323000,
   "sumCount" : 4,
-  "isHot" : 3,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -7006,10 +7006,10 @@
   "sPre" : "X",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1744712868000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1745581701000,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 1
 }, {
