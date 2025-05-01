@@ -1,4 +1,9 @@
 {
+  "2025-04-30" : [ {
+    "liveDate" : "2025-04-30",
+    "url" : "https://www.acfun.cn/v/ac47208552",
+    "pt" : "A"
+  } ],
   "2025-04-20" : [ {
     "liveDate" : "2025-04-20",
     "url" : "https://www.acfun.cn/v/ac47164424",
@@ -6,6 +11,11 @@
   }, {
     "liveDate" : "2025-04-20",
     "url" : "https://www.bilibili.com/video/BV1sr5fz8EPJ/",
+    "pt" : "B"
+  } ],
+  "2025-05-01" : [ {
+    "liveDate" : "2025-05-01",
+    "url" : "https://www.bilibili.com/video/BV1uDGez8Evf/",
     "pt" : "B"
   } ],
   "2025-04-10" : [ {
