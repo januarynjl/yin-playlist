@@ -509,11 +509,11 @@
   "sSign" : "温柔治愈",
   "sPre" : "B",
   "sUpDown" : "3",
-  "aCount" : 1,
+  "aCount" : 2,
   "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1736255922000,
-  "sumCount" : 3,
+  "updateTime" : 1746193820000,
+  "sumCount" : 4,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -808,7 +808,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1745405827000,
   "sumCount" : 3,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2936,7 +2936,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1745470001000,
   "sumCount" : 25,
-  "isHot" : 9,
+  "isHot" : 8,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3496,7 +3496,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1744207173000,
   "sumCount" : 3,
-  "isHot" : 3,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -4206,11 +4206,11 @@
   "sPre" : "Q",
   "sUpDown" : "-4",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1744432346000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1746164842000,
+  "sumCount" : 2,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -5508,10 +5508,10 @@
   "sPre" : "T",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1746164897000,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -5722,7 +5722,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1745323168000,
   "sumCount" : 6,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6795,12 +6795,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "X",
   "sUpDown" : "0",
-  "aCount" : 1,
+  "aCount" : 2,
   "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : 1743932495000,
-  "sumCount" : 2,
-  "isHot" : 0,
+  "updateTime" : 1746193820000,
+  "sumCount" : 3,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -7173,12 +7173,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "Y",
   "sUpDown" : "0",
-  "aCount" : 7,
+  "aCount" : 8,
   "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : 1743834820000,
-  "sumCount" : 8,
-  "isHot" : 4,
+  "updateTime" : 1746193820000,
+  "sumCount" : 9,
+  "isHot" : 3,
   "isNew" : 0
 }, {
   "id" : null,
@@ -8186,7 +8186,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1744291922000,
   "sumCount" : 2,
-  "isHot" : 0,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
