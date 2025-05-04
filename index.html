@@ -290,7 +290,7 @@
                 limit: 20 // 每页默认显示的数量
             });
 
-            var rankList = playList_origin.filter(song => song.sumCount>0);
+            var rankList = playList_origin.filter(song => song.isHot>0);
             rankList.sort(function (a,b) {
 
                 return b.sumCount - a.sumCount == 0
