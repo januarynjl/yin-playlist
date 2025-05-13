@@ -2180,7 +2180,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1746257604000,
   "sumCount" : 3,
-  "isHot" : 0,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2936,7 +2936,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1746600473000,
   "sumCount" : 28,
-  "isHot" : 6,
+  "isHot" : 5,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3356,7 +3356,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1746090931000,
   "sumCount" : 8,
-  "isHot" : 3,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -4210,7 +4210,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1746342353000,
   "sumCount" : 3,
-  "isHot" : 3,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
