@@ -17,6 +17,15 @@
     "url" : "https://www.bilibili.com/video/BV1rEVfzHEK3/",
     "pt" : "B"
   } ],
+  "2025-05-31" : [ {
+    "liveDate" : "2025-05-31",
+    "url" : "https://www.acfun.cn/v/ac47340642",
+    "pt" : "A"
+  }, {
+    "liveDate" : "2025-05-31",
+    "url" : "https://www.bilibili.com/video/BV1h37AzWEm2/",
+    "pt" : "B"
+  } ],
   "2025-04-20" : [ {
     "liveDate" : "2025-04-20",
     "url" : "https://www.acfun.cn/v/ac47164424",
@@ -24,6 +33,11 @@
   }, {
     "liveDate" : "2025-04-20",
     "url" : "https://www.bilibili.com/video/BV1sr5fz8EPJ/",
+    "pt" : "B"
+  } ],
+  "2025-06-01" : [ {
+    "liveDate" : "2025-06-01",
+    "url" : "https://www.bilibili.com/video/BV1G97NzYEPZ/",
     "pt" : "B"
   } ],
   "2025-04-22" : [ {
