@@ -538,10 +538,10 @@
   "sPre" : "B",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1749117952000,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -1406,10 +1406,10 @@
   "sPre" : "F",
   "sUpDown" : "2",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1742468134000,
-  "sumCount" : 1,
+  "updateTime" : 1749120824000,
+  "sumCount" : 2,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -1448,11 +1448,11 @@
   "sPre" : "F",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1748711458000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1749118649000,
+  "sumCount" : 2,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -1588,10 +1588,10 @@
   "sPre" : "G",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1749124207000,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -1840,10 +1840,10 @@
   "sPre" : "H",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1749122588000,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -1938,11 +1938,11 @@
   "sPre" : "H",
   "sUpDown" : "-1",
   "aCount" : 2,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1748951050000,
-  "sumCount" : 3,
-  "isHot" : 2,
+  "updateTime" : 1749118514000,
+  "sumCount" : 4,
+  "isHot" : 3,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6632,7 +6632,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1747810109000,
   "sumCount" : 5,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
