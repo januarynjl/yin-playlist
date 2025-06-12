@@ -1088,7 +1088,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1749553952000,
   "sumCount" : 2,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -1840,11 +1840,11 @@
   "sPre" : "H",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1749122588000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1749610024000,
+  "sumCount" : 2,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
