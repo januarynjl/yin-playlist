@@ -892,7 +892,7 @@
   "createTime" : 1744712868000,
   "updateTime" : 1748953475000,
   "sumCount" : 2,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2096,7 +2096,7 @@
   "createTime" : 1744712868000,
   "updateTime" : 1749047258000,
   "sumCount" : 2,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2441,12 +2441,12 @@
   "sSign" : "民谣乐队杂食",
   "sPre" : "H",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1750071078000,
-  "updateTime" : null,
-  "sumCount" : 0,
-  "isHot" : 0,
+  "updateTime" : 1750085271000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 1
 }, {
   "id" : null,
@@ -3776,7 +3776,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1748437696000,
   "sumCount" : 3,
-  "isHot" : 0,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
