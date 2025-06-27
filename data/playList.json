@@ -817,11 +817,11 @@
   "sSign" : "活泼可爱",
   "sPre" : "C",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
+  "updateTime" : 1750945777000,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -4261,12 +4261,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "N",
   "sUpDown" : "0",
-  "aCount" : 4,
+  "aCount" : 5,
   "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1750676002000,
-  "sumCount" : 6,
-  "isHot" : 2,
+  "updateTime" : 1750945777000,
+  "sumCount" : 7,
+  "isHot" : 3,
   "isNew" : 0
 }, {
   "id" : null,
