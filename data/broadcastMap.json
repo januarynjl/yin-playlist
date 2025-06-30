@@ -474,6 +474,11 @@
     "url" : "https://www.bilibili.com/video/BV1WFdkYuEHq/",
     "pt" : "B"
   } ],
+  "2025-06-28" : [ {
+    "liveDate" : "2025-06-28",
+    "url" : "https://www.acfun.cn/v/ac47442376",
+    "pt" : "A"
+  } ],
   "2025-05-16" : [ {
     "liveDate" : "2025-05-16",
     "url" : "https://www.acfun.cn/v/ac47276782",
@@ -522,6 +527,11 @@
   }, {
     "liveDate" : "2025-04-05",
     "url" : "https://www.bilibili.com/video/BV1DmRZYtEpj/",
+    "pt" : "B"
+  } ],
+  "2025-06-29" : [ {
+    "liveDate" : "2025-06-29",
+    "url" : "https://www.bilibili.com/video/BV1da3Az7EWs/",
     "pt" : "B"
   } ],
   "2025-05-17" : [ {
