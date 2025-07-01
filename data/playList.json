@@ -1769,12 +1769,12 @@
   "sSign" : "活泼可爱",
   "sPre" : "F",
   "sUpDown" : "-1",
-  "aCount" : 1,
+  "aCount" : 2,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : 1749047258000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1751290097000,
+  "sumCount" : 2,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3468,7 +3468,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1750340751000,
   "sumCount" : 2,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3818,7 +3818,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1750499240000,
   "sumCount" : 3,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -4037,12 +4037,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "M",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1750071078000,
-  "updateTime" : null,
-  "sumCount" : 0,
-  "isHot" : 0,
+  "updateTime" : 1751290097000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 1
 }, {
   "id" : null,
@@ -4378,7 +4378,7 @@
   "createTime" : 1744712868000,
   "updateTime" : 1750671394000,
   "sumCount" : 4,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6880,11 +6880,11 @@
   "sPre" : "W",
   "sUpDown" : "0",
   "aCount" : 8,
-  "bCount" : 2,
+  "bCount" : 3,
   "createTime" : 1742046473000,
-  "updateTime" : 1751018569000,
-  "sumCount" : 10,
-  "isHot" : 0,
+  "updateTime" : 1751253302000,
+  "sumCount" : 11,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9302,11 +9302,11 @@
   "sPre" : "Z",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 3,
+  "bCount" : 4,
   "createTime" : 1750071078000,
-  "updateTime" : 1750863486000,
-  "sumCount" : 3,
-  "isHot" : 3,
+  "updateTime" : 1751257697000,
+  "sumCount" : 4,
+  "isHot" : 4,
   "isNew" : 1
 }, {
   "id" : null,
