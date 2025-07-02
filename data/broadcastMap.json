@@ -408,6 +408,10 @@
   } ],
   "2025-07-01" : [ {
     "liveDate" : "2025-07-01",
+    "url" : "https://www.acfun.cn/v/ac47452134",
+    "pt" : "A"
+  }, {
+    "liveDate" : "2025-07-01",
     "url" : "https://www.bilibili.com/video/BV1HQgmzJERk/",
     "pt" : "B"
   } ],
@@ -463,6 +467,11 @@
   }, {
     "liveDate" : "2025-04-11",
     "url" : "https://www.bilibili.com/video/BV1UwdUYwEB8/",
+    "pt" : "B"
+  } ],
+  "2025-07-02" : [ {
+    "liveDate" : "2025-07-02",
+    "url" : "https://www.bilibili.com/video/BV1Dx34zzEMY/",
     "pt" : "B"
   } ],
   "2025-05-25" : [ {
