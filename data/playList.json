@@ -2273,12 +2273,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "H",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
-  "isHot" : 0,
+  "updateTime" : 1752327411000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2357,12 +2357,12 @@
   "sSign" : "活泼可爱",
   "sPre" : "H",
   "sUpDown" : "-1",
-  "aCount" : 3,
+  "aCount" : 4,
   "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1749390950000,
-  "sumCount" : 5,
-  "isHot" : 0,
+  "updateTime" : 1752327411000,
+  "sumCount" : 6,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2665,12 +2665,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "H",
   "sUpDown" : "-1",
-  "aCount" : 2,
+  "aCount" : 3,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : 1751678721000,
-  "sumCount" : 2,
-  "isHot" : 0,
+  "updateTime" : 1752327411000,
+  "sumCount" : 3,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3244,7 +3244,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1751942272000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6515,12 +6515,12 @@
   "sSign" : "活泼可爱",
   "sPre" : "T",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
-  "isHot" : 0,
+  "updateTime" : 1752327411000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6898,7 +6898,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1751897334000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9712,7 +9712,7 @@
   "createTime" : 1744712868000,
   "updateTime" : 1751945843000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9866,6 +9866,6 @@
   "createTime" : 1742046473000,
   "updateTime" : 1751945486000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 } ]
