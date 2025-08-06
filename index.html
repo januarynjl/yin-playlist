@@ -94,7 +94,7 @@
                 </div>
                 <div class="layui-col-md3">
                     <div class="layui-input-wrap">
-                        <input type="text" name="sPre" placeholder="首字母" lay-affix="clear" class="layui-input">
+                        <input type="text" name="sPre" placeholder="首字母/语种" lay-affix="clear" class="layui-input">
                     </div>
                 </div>
                 <div class="layui-btn-container layui-col-xs12">
@@ -279,7 +279,7 @@
                     {field:'sSinger', title: '歌手', width:150},
                     {field:'sSign', title: '风格', width:120},
                     {field:'sumCount', title: '点歌次数', width:90},
-                    {field:'sPre', title: '首字母', width:80}/*,
+                    {field:'sPre', title: '首字母/语种', width:80}/*,
                     {field:'sUpDown', title: '升降调',  width:80}*/
                 ]],
 
@@ -343,7 +343,7 @@
                         {field:'sSinger', title: '歌手', width:150},
                         {field:'sSign', title: '风格', width:120},
                         {field:'sumCount', title: '点歌次数', width:90},
-                        {field:'sPre', title: '首字母', width:80},
+                        {field:'sPre', title: '首字母/语种', width:80},
                         {field:'sUpDown', title: '升降调',  width:80}
                     ]],
                 });
@@ -374,7 +374,7 @@
                             isSearchInRow_sSign = true;
                         }
                     }
-                    if(field.sPre != "" && row.sPre == field.sPre.toUpperCase()){
+                    if(field.sPre != "" && (row.sPre.indexOf(field.sPre)> -1 || row.sPre == field.sPre.toUpperCase())){
                         isSearchInRow_sPre = true;
                     }else{
                         if(field.sPre == ""){
