@@ -3156,10 +3156,10 @@
   "sPre" : "J",
   "sUpDown" : "2",
   "aCount" : 1,
-  "bCount" : 2,
+  "bCount" : 3,
   "createTime" : 1742046473000,
   "updateTime" : 1748709564000,
-  "sumCount" : 3,
+  "sumCount" : 4,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -7486,7 +7486,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1754450448000,
   "sumCount" : 27,
-  "isHot" : 4,
+  "isHot" : 3,
   "isNew" : 0
 }, {
   "id" : null,
