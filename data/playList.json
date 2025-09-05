@@ -1326,7 +1326,7 @@
   "createTime" : 1755758165000,
   "updateTime" : 1756430734000,
   "sumCount" : 1,
-  "isHot" : 0,
+  "isHot" : 1,
   "isNew" : 1
 }, {
   "id" : null,
@@ -1504,10 +1504,10 @@
   "sPre" : "D",
   "sUpDown" : "3",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1755758165000,
   "updateTime" : null,
-  "sumCount" : 0,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 1
 }, {
@@ -2432,7 +2432,7 @@
   "createTime" : 1750071078000,
   "updateTime" : 1756430734000,
   "sumCount" : 2,
-  "isHot" : 0,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -4826,7 +4826,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1754450443000,
   "sumCount" : 14,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -5610,7 +5610,7 @@
   "createTime" : 1755758165000,
   "updateTime" : 1756430734000,
   "sumCount" : 2,
-  "isHot" : 0,
+  "isHot" : 1,
   "isNew" : 1
 }, {
   "id" : null,
@@ -6142,7 +6142,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1755349647000,
   "sumCount" : 6,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9208,7 +9208,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1755697461000,
   "sumCount" : 19,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9474,7 +9474,7 @@
   "createTime" : 1750071078000,
   "updateTime" : 1755523070000,
   "sumCount" : 3,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -10188,7 +10188,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1756430734000,
   "sumCount" : 2,
-  "isHot" : 0,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
