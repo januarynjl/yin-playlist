@@ -1564,7 +1564,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1757770965000,
   "sumCount" : 1,
-  "isHot" : 0,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -10510,7 +10510,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1757642505000,
   "sumCount" : 18,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
