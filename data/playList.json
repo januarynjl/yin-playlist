@@ -1326,7 +1326,7 @@
   "createTime" : 1755758165000,
   "updateTime" : 1757034400000,
   "sumCount" : 3,
-  "isHot" : 3,
+  "isHot" : 2,
   "isNew" : 1
 }, {
   "id" : null,
@@ -1564,7 +1564,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1757770965000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -1727,12 +1727,12 @@
   "sSign" : "古风国风",
   "sPre" : "D",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
-  "isHot" : 0,
+  "updateTime" : 1759067836000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -4485,12 +4485,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "M",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1755758165000,
-  "updateTime" : null,
-  "sumCount" : 0,
-  "isHot" : 0,
+  "updateTime" : 1759067836000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 1
 }, {
   "id" : null,
@@ -6268,7 +6268,7 @@
   "createTime" : 1755758165000,
   "updateTime" : 1757939106000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
