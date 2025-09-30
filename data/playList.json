@@ -2259,12 +2259,12 @@
   "sSign" : "活泼可爱",
   "sPre" : "G",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : 1749124207000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1759152437000,
+  "sumCount" : 2,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -7146,10 +7146,10 @@
   "sPre" : "T",
   "sUpDown" : "-1",
   "aCount" : 3,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
   "updateTime" : 1757168795000,
-  "sumCount" : 3,
+  "sumCount" : 4,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -7458,7 +7458,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1758029758000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -8237,12 +8237,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "X",
   "sUpDown" : "-1",
-  "aCount" : 7,
+  "aCount" : 8,
   "bCount" : 23,
   "createTime" : 1742046473000,
-  "updateTime" : 1754450448000,
-  "sumCount" : 30,
-  "isHot" : 0,
+  "updateTime" : 1759152437000,
+  "sumCount" : 31,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -8676,7 +8676,7 @@
   "createTime" : 1755758165000,
   "updateTime" : 1757939106000,
   "sumCount" : 2,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -8867,12 +8867,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "X",
   "sUpDown" : "0",
-  "aCount" : 6,
+  "aCount" : 7,
   "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : 1757939106000,
-  "sumCount" : 7,
-  "isHot" : 3,
+  "updateTime" : 1759152437000,
+  "sumCount" : 8,
+  "isHot" : 4,
   "isNew" : 0
 }, {
   "id" : null,
@@ -10496,7 +10496,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1756559708000,
   "sumCount" : 3,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -10743,12 +10743,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "Z",
   "sUpDown" : "0",
-  "aCount" : 4,
+  "aCount" : 5,
   "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1754745921000,
-  "sumCount" : 6,
-  "isHot" : 0,
+  "updateTime" : 1759152437000,
+  "sumCount" : 7,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
