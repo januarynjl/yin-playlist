@@ -3421,12 +3421,12 @@
   "sSign" : "古风国风",
   "sPre" : "J",
   "sUpDown" : "-1",
-  "aCount" : 2,
+  "aCount" : 3,
   "bCount" : 0,
   "createTime" : 1755758165000,
-  "updateTime" : 1759583800000,
-  "sumCount" : 2,
-  "isHot" : 2,
+  "updateTime" : 1759843624000,
+  "sumCount" : 3,
+  "isHot" : 3,
   "isNew" : 1
 }, {
   "id" : null,
@@ -3729,12 +3729,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "K",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1755758165000,
-  "updateTime" : null,
-  "sumCount" : 0,
-  "isHot" : 0,
+  "updateTime" : 1759843624000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 1
 }, {
   "id" : null,
@@ -5834,7 +5834,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1758029758000,
   "sumCount" : 7,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6921,12 +6921,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "T",
   "sUpDown" : "3",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1750071078000,
-  "updateTime" : null,
-  "sumCount" : 0,
-  "isHot" : 0,
+  "updateTime" : 1759843624000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -7458,7 +7458,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1758029758000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -8676,7 +8676,7 @@
   "createTime" : 1755758165000,
   "updateTime" : 1757939106000,
   "sumCount" : 2,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -8867,12 +8867,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "X",
   "sUpDown" : "0",
-  "aCount" : 8,
+  "aCount" : 9,
   "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : 1759735133000,
-  "sumCount" : 9,
-  "isHot" : 5,
+  "updateTime" : 1759843624000,
+  "sumCount" : 10,
+  "isHot" : 6,
   "isNew" : 0
 }, {
   "id" : null,
@@ -10505,12 +10505,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "Z",
   "sUpDown" : "0",
-  "aCount" : 13,
+  "aCount" : 14,
   "bCount" : 5,
   "createTime" : 1742046473000,
-  "updateTime" : 1757642505000,
-  "sumCount" : 18,
-  "isHot" : 0,
+  "updateTime" : 1759843624000,
+  "sumCount" : 19,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,

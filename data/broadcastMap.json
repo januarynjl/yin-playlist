@@ -916,14 +916,18 @@
     "url" : "https://www.acfun.cn/v/ac47099707",
     "pt" : "A"
   } ],
-  "2025-10-07" : [ {
-    "liveDate" : "2025-10-07",
-    "url" : "https://www.bilibili.com/video/BV1ToxXzLEJf/",
-    "pt" : "B"
-  } ],
   "2025-09-10" : [ {
     "liveDate" : "2025-09-10",
     "url" : "https://www.bilibili.com/video/BV1gMHUzZErF/",
+    "pt" : "B"
+  } ],
+  "2025-10-07" : [ {
+    "liveDate" : "2025-10-07",
+    "url" : "https://www.acfun.cn/v/ac47892139",
+    "pt" : "A"
+  }, {
+    "liveDate" : "2025-10-07",
+    "url" : "https://www.bilibili.com/video/BV1ToxXzLEJf/",
     "pt" : "B"
   } ],
   "2025-10-06" : [ {
