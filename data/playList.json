@@ -2138,7 +2138,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1761917598000,
   "sumCount" : 4,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3029,12 +3029,12 @@
   "sSign" : "民谣乐队杂食",
   "sPre" : "H",
   "sUpDown" : "-1",
-  "aCount" : 4,
+  "aCount" : 5,
   "bCount" : 3,
   "createTime" : 1742046473000,
-  "updateTime" : 1761483809000,
-  "sumCount" : 7,
-  "isHot" : 0,
+  "updateTime" : 1763042989000,
+  "sumCount" : 8,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -4000,7 +4000,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1761917598000,
   "sumCount" : 3,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -4639,12 +4639,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "N",
   "sUpDown" : "-1",
-  "aCount" : 4,
+  "aCount" : 5,
   "bCount" : 7,
   "createTime" : 1742046473000,
-  "updateTime" : 1761141902000,
-  "sumCount" : 11,
-  "isHot" : 0,
+  "updateTime" : 1763042989000,
+  "sumCount" : 12,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9749,12 +9749,12 @@
   "sSign" : "活泼可爱",
   "sPre" : "Y",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 1,
   "createTime" : 1744712868000,
-  "updateTime" : 1746342101000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1763042989000,
+  "sumCount" : 2,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -10104,7 +10104,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1761832705000,
   "sumCount" : 4,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
