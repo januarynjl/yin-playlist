@@ -3394,10 +3394,10 @@
   "sPre" : "J",
   "sUpDown" : "0",
   "aCount" : 4,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
   "updateTime" : 1742132313000,
-  "sumCount" : 4,
+  "sumCount" : 5,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -4616,7 +4616,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1762001487000,
   "sumCount" : 2,
-  "isHot" : 0,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6558,10 +6558,10 @@
   "sPre" : "S",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
   "updateTime" : null,
-  "sumCount" : 0,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -6912,7 +6912,7 @@
   "createTime" : 1750071078000,
   "updateTime" : 1762090731000,
   "sumCount" : 3,
-  "isHot" : 2,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -8480,7 +8480,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1760969867000,
   "sumCount" : 5,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
