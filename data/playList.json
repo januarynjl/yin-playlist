@@ -929,12 +929,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "C",
   "sUpDown" : "0",
-  "aCount" : 1,
+  "aCount" : 2,
   "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : 1763476177000,
-  "sumCount" : 2,
-  "isHot" : 1,
+  "updateTime" : 1763904657000,
+  "sumCount" : 3,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3034,7 +3034,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1763042989000,
   "sumCount" : 8,
-  "isHot" : 2,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3226,10 +3226,10 @@
   "sPre" : "J",
   "sUpDown" : "0",
   "aCount" : 2,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1744712868000,
   "updateTime" : 1754228588000,
-  "sumCount" : 3,
+  "sumCount" : 4,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -3408,10 +3408,10 @@
   "sPre" : "J",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
   "updateTime" : null,
-  "sumCount" : 0,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -3678,7 +3678,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1762175199000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -4569,12 +4569,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "M",
   "sUpDown" : "0",
-  "aCount" : 2,
+  "aCount" : 3,
   "bCount" : 4,
   "createTime" : 1755758165000,
-  "updateTime" : 1763649070000,
-  "sumCount" : 6,
-  "isHot" : 2,
+  "updateTime" : 1763904657000,
+  "sumCount" : 7,
+  "isHot" : 3,
   "isNew" : 1
 }, {
   "id" : null,
@@ -8872,7 +8872,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1763476177000,
   "sumCount" : 15,
-  "isHot" : 2,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -10169,12 +10169,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "Z",
   "sUpDown" : "0",
-  "aCount" : 7,
+  "aCount" : 8,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : 1763649070000,
-  "sumCount" : 7,
-  "isHot" : 1,
+  "updateTime" : 1763904657000,
+  "sumCount" : 8,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -10505,12 +10505,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "Z",
   "sUpDown" : "0",
-  "aCount" : 16,
+  "aCount" : 18,
   "bCount" : 6,
   "createTime" : 1742046473000,
-  "updateTime" : 1761483809000,
-  "sumCount" : 22,
-  "isHot" : 0,
+  "updateTime" : 1763904657000,
+  "sumCount" : 24,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
