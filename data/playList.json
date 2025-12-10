@@ -1154,10 +1154,10 @@
   "sPre" : "C",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1742046473000,
   "updateTime" : 1747134884000,
-  "sumCount" : 1,
+  "sumCount" : 2,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -1392,10 +1392,10 @@
   "sPre" : "C",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1764150474000,
   "updateTime" : null,
-  "sumCount" : 1,
+  "sumCount" : 2,
   "isHot" : 0,
   "isNew" : 1
 }, {
@@ -2610,10 +2610,10 @@
   "sPre" : "G",
   "sUpDown" : "-1",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
   "updateTime" : null,
-  "sumCount" : 0,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -4584,10 +4584,10 @@
   "sPre" : "M",
   "sUpDown" : "-1",
   "aCount" : 4,
-  "bCount" : 3,
+  "bCount" : 4,
   "createTime" : 1742046473000,
   "updateTime" : 1765116578000,
-  "sumCount" : 7,
+  "sumCount" : 8,
   "isHot" : 1,
   "isNew" : 0
 }, {
@@ -4975,12 +4975,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "M",
   "sUpDown" : "0",
-  "aCount" : 3,
+  "aCount" : 4,
   "bCount" : 4,
   "createTime" : 1755758165000,
-  "updateTime" : 1763904657000,
-  "sumCount" : 7,
-  "isHot" : 3,
+  "updateTime" : 1765288825000,
+  "sumCount" : 8,
+  "isHot" : 4,
   "isNew" : 0
 }, {
   "id" : null,
@@ -5410,10 +5410,10 @@
   "sPre" : "N",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1742046473000,
   "updateTime" : 1753273793000,
-  "sumCount" : 1,
+  "sumCount" : 2,
   "isHot" : 0,
   "isNew" : 0
 }, {
