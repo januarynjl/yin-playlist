@@ -1055,12 +1055,12 @@
   "sSign" : "民谣乐队杂食",
   "sPre" : "C",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1744712868000,
-  "updateTime" : null,
-  "sumCount" : 0,
-  "isHot" : 0,
+  "updateTime" : 1767103108000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -1438,7 +1438,7 @@
   "createTime" : 1755758165000,
   "updateTime" : 1765119990000,
   "sumCount" : 6,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -1942,7 +1942,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766586494000,
   "sumCount" : 4,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2740,7 +2740,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766586494000,
   "sumCount" : 4,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2861,12 +2861,12 @@
   "sSign" : "活泼可爱",
   "sPre" : "H",
   "sUpDown" : "-1",
-  "aCount" : 5,
+  "aCount" : 7,
   "bCount" : 5,
   "createTime" : 1742046473000,
-  "updateTime" : 1760190352000,
-  "sumCount" : 10,
-  "isHot" : 0,
+  "updateTime" : 1767190207000,
+  "sumCount" : 12,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2917,12 +2917,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "H",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1750671417000,
-  "sumCount" : 2,
-  "isHot" : 0,
+  "updateTime" : 1767190207000,
+  "sumCount" : 3,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3057,12 +3057,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "H",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : null,
-  "sumCount" : 0,
-  "isHot" : 0,
+  "updateTime" : 1766930066000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3646,10 +3646,10 @@
   "sPre" : "J",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1764150474000,
   "updateTime" : null,
-  "sumCount" : 0,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 1
 }, {
@@ -4765,12 +4765,12 @@
   "sSign" : "民谣乐队杂食",
   "sPre" : "M",
   "sUpDown" : "4",
-  "aCount" : 2,
+  "aCount" : 3,
   "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : 1755523070000,
-  "sumCount" : 3,
-  "isHot" : 0,
+  "updateTime" : 1767103108000,
+  "sumCount" : 4,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -5059,12 +5059,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "N",
   "sUpDown" : "-1",
-  "aCount" : 5,
+  "aCount" : 6,
   "bCount" : 7,
   "createTime" : 1742046473000,
-  "updateTime" : 1763042989000,
-  "sumCount" : 12,
-  "isHot" : 0,
+  "updateTime" : 1767190207000,
+  "sumCount" : 13,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -5564,10 +5564,10 @@
   "sPre" : "P",
   "sUpDown" : "0",
   "aCount" : 2,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1742046473000,
   "updateTime" : 1754831967000,
-  "sumCount" : 3,
+  "sumCount" : 4,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -5596,7 +5596,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766586494000,
   "sumCount" : 2,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -5661,12 +5661,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "Q",
   "sUpDown" : "-1",
-  "aCount" : 4,
+  "aCount" : 5,
   "bCount" : 3,
   "createTime" : 1742046473000,
-  "updateTime" : 1754313829000,
-  "sumCount" : 7,
-  "isHot" : 0,
+  "updateTime" : 1767016703000,
+  "sumCount" : 8,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6137,12 +6137,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "Q",
   "sUpDown" : "-4",
-  "aCount" : 4,
+  "aCount" : 5,
   "bCount" : 6,
   "createTime" : 1742046473000,
-  "updateTime" : 1766670773000,
-  "sumCount" : 10,
-  "isHot" : 3,
+  "updateTime" : 1767103108000,
+  "sumCount" : 11,
+  "isHot" : 4,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6585,12 +6585,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "S",
   "sUpDown" : "-2",
-  "aCount" : 2,
+  "aCount" : 3,
   "bCount" : 1,
   "createTime" : 1744712868000,
-  "updateTime" : 1764855386000,
-  "sumCount" : 3,
-  "isHot" : 0,
+  "updateTime" : 1767190207000,
+  "sumCount" : 4,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -7710,7 +7710,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766586494000,
   "sumCount" : 3,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -8046,7 +8046,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766586494000,
   "sumCount" : 2,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -8489,12 +8489,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "W",
   "sUpDown" : "0",
-  "aCount" : 1,
+  "aCount" : 2,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : 1740230268000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1767016703000,
+  "sumCount" : 2,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -8900,7 +8900,7 @@
   "createTime" : 1764150474000,
   "updateTime" : 1766586494000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -9259,12 +9259,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "X",
   "sUpDown" : "0",
-  "aCount" : 6,
+  "aCount" : 7,
   "bCount" : 4,
   "createTime" : 1742046473000,
-  "updateTime" : 1764855386000,
-  "sumCount" : 10,
-  "isHot" : 0,
+  "updateTime" : 1767190207000,
+  "sumCount" : 11,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9726,7 +9726,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766670773000,
   "sumCount" : 2,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9763,12 +9763,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "X",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 2,
   "createTime" : 1744712868000,
-  "updateTime" : 1754445106000,
-  "sumCount" : 2,
-  "isHot" : 0,
+  "updateTime" : 1767016703000,
+  "sumCount" : 3,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9908,7 +9908,7 @@
   "createTime" : 1750071078000,
   "updateTime" : 1766583979000,
   "sumCount" : 5,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -10286,7 +10286,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766670773000,
   "sumCount" : 4,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -10944,7 +10944,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766411172000,
   "sumCount" : 4,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -11140,7 +11140,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766411172000,
   "sumCount" : 4,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -11751,12 +11751,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "Z",
   "sUpDown" : "0",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1764150474000,
-  "updateTime" : null,
-  "sumCount" : 0,
-  "isHot" : 0,
+  "updateTime" : 1767190207000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 1
 }, {
   "id" : null,
