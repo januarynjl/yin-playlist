@@ -640,7 +640,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766843727000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -1251,12 +1251,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "C",
   "sUpDown" : "0",
-  "aCount" : 1,
+  "aCount" : 2,
   "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : 1746866747000,
-  "sumCount" : 2,
-  "isHot" : 0,
+  "updateTime" : 1767250276000,
+  "sumCount" : 3,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2945,12 +2945,12 @@
   "sSign" : "民谣乐队杂食",
   "sPre" : "H",
   "sUpDown" : "-1",
-  "aCount" : 3,
+  "aCount" : 4,
   "bCount" : 0,
   "createTime" : 1750071078000,
-  "updateTime" : 1765116578000,
-  "sumCount" : 3,
-  "isHot" : 0,
+  "updateTime" : 1767250276000,
+  "sumCount" : 4,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6352,7 +6352,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766670773000,
   "sumCount" : 9,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6725,12 +6725,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "S",
   "sUpDown" : "0",
-  "aCount" : 3,
+  "aCount" : 4,
   "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : 1760363779000,
-  "sumCount" : 4,
-  "isHot" : 0,
+  "updateTime" : 1767279586000,
+  "sumCount" : 5,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -6968,7 +6968,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766670773000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9987,12 +9987,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "Y",
   "sUpDown" : "0",
-  "aCount" : 2,
+  "aCount" : 3,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : 1741698903000,
-  "sumCount" : 2,
-  "isHot" : 0,
+  "updateTime" : 1767250276000,
+  "sumCount" : 3,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -11532,7 +11532,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766843727000,
   "sumCount" : 4,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,

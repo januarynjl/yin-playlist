@@ -64,7 +64,7 @@
 <div class="layui-fluid">
     <div class="layui-card">
         <div class="layui-card-header">
-            <p style="text-align: center">懒銀歌单【<span class="count" id="count">0</span>】&nbsp;&nbsp;2025直播天数【<span class="count" id="dateCount">0</span>】</p>
+            <p style="text-align: center">懒銀歌单【<span class="count" id="count">0</span>】&nbsp;&nbsp;2026直播天数【<span class="count" id="dateCount">0</span>】</p>
         </div>
         <div class="layui-card-body">
             <form class="layui-form layui-row layui-col-space16"  lay-filter="search-filter">
@@ -156,9 +156,10 @@
         dataModule.fetchData('./data/liveDateList_B.json', function(data) {
             liveDateList_B = data;
         });
-
-        dataModule.fetchData('./data/liveDateList.json', function(data) {
+        dataModule.fetchData('./data/liveDateList_2026.json', function(data) {
             $("#dateCount").text(data.length);
+        });
+        dataModule.fetchData('./data/liveDateList.json', function(data) {
             // 渲染
             laydate.render({
                 eventElem: '#live-date',
@@ -253,7 +254,7 @@
             'test-page-wrap': function () {
                 layer.open({
                     type: 1,
-                    title: "热门歌曲 统计时间：12-31 24:00",
+                    title: "热门歌曲 统计时间：01-01 24:00",
                     shade: 0.3, // 不显示遮罩
                     content: $('#rank-page'), // 捕获的元素
                     end: function () {
