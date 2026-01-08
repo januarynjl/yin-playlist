@@ -1690,6 +1690,11 @@
     "url" : "https://www.bilibili.com/video/BV129qoBAEdc/",
     "pt" : "B"
   } ],
+  "2026-01-07" : [ {
+    "liveDate" : "2026-01-07",
+    "url" : "https://www.acfun.cn/v/ac48171506",
+    "pt" : "A"
+  } ],
   "2025-06-28" : [ {
     "liveDate" : "2025-06-28",
     "url" : "https://www.acfun.cn/v/ac47442376",
@@ -1720,6 +1725,11 @@
   }, {
     "liveDate" : "2025-06-27",
     "url" : "https://www.bilibili.com/video/BV1diK6zrEQP/",
+    "pt" : "B"
+  } ],
+  "2026-01-06" : [ {
+    "liveDate" : "2026-01-06",
+    "url" : "https://www.bilibili.com/video/BV1WFqAB6ErK/",
     "pt" : "B"
   } ],
   "2025-12-21" : [ {
