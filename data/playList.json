@@ -19,12 +19,12 @@
   "sSign" : "活泼可爱",
   "sPre" : "A",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 2,
   "createTime" : 1742046473000,
-  "updateTime" : 1747805067000,
-  "sumCount" : 2,
-  "isHot" : 0,
+  "updateTime" : 1768398026000,
+  "sumCount" : 3,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -178,7 +178,7 @@
   "createTime" : 1750071078000,
   "updateTime" : 1767621343000,
   "sumCount" : 2,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -621,12 +621,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "B",
   "sUpDown" : "0",
-  "aCount" : 1,
+  "aCount" : 2,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : 1736172370000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1768226381000,
+  "sumCount" : 2,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2035,12 +2035,12 @@
   "sSign" : "古风国风",
   "sPre" : "D",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1755758165000,
-  "updateTime" : null,
-  "sumCount" : 0,
-  "isHot" : 0,
+  "updateTime" : 1768226381000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -4966,7 +4966,7 @@
   "createTime" : 1750071078000,
   "updateTime" : 1767621343000,
   "sumCount" : 2,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -8354,7 +8354,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1767538647000,
   "sumCount" : 3,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9259,12 +9259,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "X",
   "sUpDown" : "0",
-  "aCount" : 7,
+  "aCount" : 8,
   "bCount" : 4,
   "createTime" : 1742046473000,
-  "updateTime" : 1767190207000,
-  "sumCount" : 11,
-  "isHot" : 0,
+  "updateTime" : 1768226381000,
+  "sumCount" : 12,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9684,7 +9684,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1766586494000,
   "sumCount" : 19,
-  "isHot" : 3,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9852,7 +9852,7 @@
   "createTime" : 1755758165000,
   "updateTime" : 1767621343000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9904,10 +9904,10 @@
   "sPre" : "Y",
   "sUpDown" : "0",
   "aCount" : 1,
-  "bCount" : 5,
+  "bCount" : 6,
   "createTime" : 1750071078000,
   "updateTime" : 1766583979000,
-  "sumCount" : 6,
+  "sumCount" : 7,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -10407,12 +10407,12 @@
   "sSign" : "活泼可爱",
   "sPre" : "Y",
   "sUpDown" : "3",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 1,
   "createTime" : 1742046473000,
-  "updateTime" : 1747966261000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1768485358000,
+  "sumCount" : 2,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -10706,7 +10706,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1767538647000,
   "sumCount" : 8,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -11406,7 +11406,7 @@
   "createTime" : 1764150474000,
   "updateTime" : 1767621343000,
   "sumCount" : 1,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -11807,12 +11807,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "Z",
   "sUpDown" : "-1",
-  "aCount" : 0,
+  "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1764150474000,
-  "updateTime" : null,
-  "sumCount" : 0,
-  "isHot" : 0,
+  "updateTime" : 1768398026000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 1
 }, {
   "id" : null,
