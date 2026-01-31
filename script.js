@@ -1,0 +1,311 @@
+var playList_origin;
+layui.define(['jquery'], function(exports){
+    var $ = layui.jquery;
+
+    var fetchData = function(url, callback) {
+        $.getJSON(url, function(data) {
+            callback(data);
+        });
+    };
+
+    exports('dataModule', {fetchData: fetchData});
+});
+
+layui.use(function(){
+    var $ = layui.$;
+    var form = layui.form;
+    var table = layui.table;
+    var dataModule = layui.dataModule;
+    var util = layui.util;
+    var laydate = layui.laydate;
+    
+    form.render();
+
+    var broadcastMap = new Map();
+    var liveDateList_A;
+    var liveDateList_B;
+    var liveDateList;
+    
+    function initDateControl() {
+        if (broadcastMap.size > 0 && liveDateList_A && liveDateList_B && liveDateList) {
+            laydate.render({
+                eventElem: '#live-date',
+                trigger: 'click',
+                elem: '#live-date-val',
+                value: new Date(new Date().setDate(new Date().getDate() - 1)),
+                id:'live-date',
+                showBottom: true,
+                autoConfirm : false,
+                btns: [],
+                theme: ['#ff98a0','grid'],
+                disabledDate: function(date, type){
+                    return date.getTime() > Date.now();
+                },
+
+                change: function(value, date) {
+                    this.cellRender(date);
+                    $("#live-date").text("直播日历");
+                },
+                ready: function (date) {
+                var that = this;
+                
+                setTimeout(function() {
+                    var panelEl = $('.layui-laydate:last');
+                    
+                    that._previewEl = panelEl.find('.layui-laydate-preview');
+                    if (!that._previewEl.length) {
+                        that._previewEl = $('<div class="layui-laydate-preview" style="padding: 10px; border-top: 1px solid #e6e6e6;"></div>');
+                        panelEl.find('.layui-laydate-main').after(that._previewEl);
+                    }
+                    
+                    var today = new Date(new Date().setDate(new Date().getDate() - 1));
+                    var currentDate = {
+                        year: today.getFullYear(),
+                        month: today.getMonth() + 1,
+                        date: today.getDate()
+                    };
+                    
+                    var y = currentDate.year;
+                    var m = currentDate.month;
+                    var d = currentDate.date;
+                    var dateStr = layui.util.toDateString(new Date(y, m-1, d), 'yyyy-MM-dd');
+                    
+                    if (broadcastMap.has(dateStr)) {
+                        let broadcastList = broadcastMap.get(dateStr);
+                        let text = '';
+                        for (let i = 0; i < broadcastList.length; i++) {
+                            text += '<a class="broadcost_'+broadcastList[i].pt+' layui-btn layui-btn-xs layui-btn-normal" target="_blank" href="'+broadcastList[i].url+'">'+broadcastList[i].pt+'录播链接' + '</a>';
+                        }
+                        var tipsText = [
+                            '<div class="preview-inner">',
+                            text,
+                            '</div>'
+                        ].join('');
+                        that._previewEl.html(tipsText);
+                    } else {
+                        var tipsText = [
+                            '<div class="preview-inner">',
+                            '<div style="color:#333;">暂无录播</div>',
+                            '</div>'
+                        ].join('');
+                        that._previewEl.html(tipsText);
+                    }
+                    
+                    that.elem.val(dateStr);
+                }, 100);
+            },
+                cellRender: function (ymd, render, info) {
+                    var that = this;
+                    var y = ymd.year;
+                    var m = ymd.month;
+                    var d = ymd.date;
+                    var date = layui.util.toDateString(new Date(y, m-1, d), 'yyyy-MM-dd');
+                    if (that._previewEl && (!info || (info && info.type === "date"))) {
+
+                        if(broadcastMap.has(date)){
+                            let broadcastList = broadcastMap.get(date);
+                            let text = '';
+                            for (let i = 0; i < broadcastList.length; i++) {
+                                text += '<a class="broadcost_'+broadcastList[i].pt+' layui-btn layui-btn-xs layui-btn-normal" target="_blank" href="'+broadcastList[i].url+'">'+broadcastList[i].pt+'录播链接' + '</a>';
+                            }
+                            var tipsText = [
+                                '<div class="preview-inner">',
+                                text,
+                                '</div>'
+                            ].join('');
+                            that._previewEl.html(tipsText);
+                        }else{
+                            var tipsText = [
+                                '<div class="preview-inner">',
+                                '<div style="color:#333;">暂无录播</div>',
+                                '</div>'
+                            ].join('');
+                            that._previewEl.html(tipsText);
+                        }
+                    }
+                    if (!render) return;
+
+                    var is_A = liveDateList_A.includes(date);
+                    var is_B = liveDateList_B.includes(date);
+                    if (info.type == 'date') {
+                        var clazz = [
+                            'date-cell-inner',
+                            is_A ? 'laydate-day-holidays' : '',
+                            is_B ? 'laydate-B' : '',
+                        ].join(' ');
+                        var content = [
+                            '<div class="' + clazz + '">',
+                            '<b>' + d + '</b>',
+                            '</div>',
+                        ].join('');
+                        var contentEl = $(content);
+                        render(contentEl);
+                    }
+                }
+            });
+        }
+    }
+    
+    dataModule.fetchData('./data/broadcastMap.json', function(data) {
+        Object.entries(data).forEach(([key, value]) => {
+            broadcastMap.set(key, value);
+        });
+        initDateControl();
+    });
+    
+    dataModule.fetchData('./data/liveDateList_A.json', function(data) {
+        liveDateList_A = data;
+        initDateControl();
+    });
+    
+    dataModule.fetchData('./data/liveDateList_B.json', function(data) {
+        liveDateList_B = data;
+        initDateControl();
+    });
+    
+    dataModule.fetchData('./data/liveDateList_2026.json', function(data) {
+        $("#dateCount").text(data.length);
+    });
+    
+    dataModule.fetchData('./data/liveDateList.json', function(data) {
+        liveDateList = data;
+        initDateControl();
+    });
+
+    util.fixbar({
+        top: true,
+        css: { right: 15, bottom: 35,'border-radius': '50px' },
+        bgcolor: '#ff98a0'
+    });
+    util.on('lay-on', {
+        'test-page-wrap': function () {
+            layer.open({
+                type: 1,
+                title: "热门歌曲 统计时间：01-29 24:00",
+                shade: 0.3,
+                content: $('#rank-page'),
+                end: function () {
+                }
+            });
+        }
+    });
+    dataModule.fetchData('./data/playList.json', function(data) {
+        playList_origin = data;
+        $("#count").text(data.length);
+        playList = playList_origin;
+        table.render({
+            elem: '#playList-table',
+            size:'lg',
+            data: playList,
+            cols: [[
+                {type: 'numbers', title: '序号',width:60},
+                {field:'sName', title: '歌名',maxWidth:300,minWidth:150, templet: function(d) {
+                        return d.sName+ (d.isHot > 0  ? '<img src="img/hot.gif" >' : '')+ (d.isNew> 0  ? '<img src="img/new.gif" >' : '');
+                    }},
+                {field:'sSinger', title: '歌手', width:150},
+                {field:'sSign', title: '风格', width:120},
+                {field:'sumCount', title: '点歌次数', width:90},
+                {field:'sPre', title: '首字母/语种', width:110}
+            ]],
+
+            even: true,
+            page: false,
+            limits: [10, 20, 50],
+            limit: 20
+        });
+
+        var rankList = playList_origin.filter(song => song.isHot>0);
+        rankList.sort(function (a,b) {
+            return b.sumCount - a.sumCount == 0
+                ? (b.updateTime-a.updateTime ):(b.sumCount - a.sumCount);
+        });
+
+        table.render({
+            elem: '#rank-table',
+            size:'lg',
+            data: rankList,
+            cols: [[
+                {field:'sName', title: '歌名',width:140},
+                {field:'sumCount', title: '点歌次数', width:90},
+                {field:'aCount', title: 'A', width:60, sort: true},
+                {field:'bCount', title: 'B', width:60, sort: true},
+                {field:'sSinger', title: '歌手', width:150},
+                {field:'sSign', title: '风格', width:120}
+            ]],
+
+            even: true,
+            page: false,
+        });
+    });
+    $('#btn-submit').on('click', function(){
+        form.submit('search-filter', function(data){
+            var field = data.field;
+            search(field);
+        });
+        return false;
+    });
+    $('#btn-clear').on('click', function(){
+        search({sName: '', sSinger: '', sSign: '', sPre: ''})
+    });
+
+    function search(field){
+        let filter_list = [];
+        let cdata = playList_origin;
+        if(field.sName == "" && field.sSinger == "" && field.sSign == ""  && field.sPre == ""){
+            filter_list = cdata;
+        }else if(field.sPre =="open"){
+            table.reload('playList-table', {
+                cols: [[
+                    {type: 'numbers', title: '序号',width:60},
+                    {field:'sName', title: '歌名',maxWidth:300,minWidth:150},
+                    {field:'sSinger', title: '歌手', width:150},
+                    {field:'sSign', title: '风格', width:120},
+                    {field:'sumCount', title: '点歌次数', width:90},
+                    {field:'sPre', title: '首字母/语种', width:110},
+                    {field:'sUpDown', title: '升降调',  width:80}
+                ]],
+            });
+        }else{
+            $.each(cdata, function (i, row) {
+                var isSearchInRow_sName = false;
+                var isSearchInRow_sSinger = false;
+                var isSearchInRow_sSign = false;
+                var isSearchInRow_sPre = false;
+                if(field.sName != "" && row.sName.toUpperCase().indexOf(field.sName.toUpperCase())> -1){
+                    isSearchInRow_sName = true;
+                }else{
+                    if(field.sName == ""){
+                        isSearchInRow_sName = true;
+                    }
+                }
+                if(field.sSinger != "" && row.sSinger.toUpperCase().indexOf(field.sSinger.toUpperCase())> -1){
+                    isSearchInRow_sSinger = true;
+                }else{
+                    if(field.sSinger == ""){
+                        isSearchInRow_sSinger = true;
+                    }
+                }
+                if(field.sSign != "" && row.sSign.indexOf(field.sSign)> -1){
+                    isSearchInRow_sSign = true;
+                }else{
+                    if(field.sSign == ""){
+                        isSearchInRow_sSign = true;
+                    }
+                }
+                if(field.sPre != "" && (row.sPre.indexOf(field.sPre)> -1 || row.sPre == field.sPre.toUpperCase())){
+                    isSearchInRow_sPre = true;
+                }else{
+                    if(field.sPre == ""){
+                        isSearchInRow_sPre = true;
+                    }
+                }
+                if (isSearchInRow_sName && isSearchInRow_sSinger && isSearchInRow_sSign && isSearchInRow_sPre) {
+                    filter_list.push(row);
+                }
+            });
+        }
+        table.reload('playList-table', {
+            data: filter_list,
+        });
+    }
+});
