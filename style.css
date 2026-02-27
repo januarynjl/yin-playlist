@@ -637,6 +637,8 @@ p {
         max-height: 400px !important;
         min-width: 100% !important;
         width: 100% !important;
+        position: absolute !important;
+        z-index: 999999 !important;
     }
     
     /* 手机布局下的下拉框选项样式 */
