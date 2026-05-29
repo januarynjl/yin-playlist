@@ -2278,7 +2278,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1779282367000,
   "sumCount" : 2,
-  "isHot" : 0,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3594,7 +3594,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1779282367000,
   "sumCount" : 8,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -9441,12 +9441,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "W",
   "sUpDown" : "-1",
-  "aCount" : 1,
+  "aCount" : 2,
   "bCount" : 0,
   "createTime" : 1764150474000,
-  "updateTime" : 1778678420000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1779976396000,
+  "sumCount" : 2,
+  "isHot" : 2,
   "isNew" : 0
 }, {
   "id" : null,
@@ -10916,7 +10916,7 @@
   "createTime" : 1773225891000,
   "updateTime" : 1779282367000,
   "sumCount" : 2,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
