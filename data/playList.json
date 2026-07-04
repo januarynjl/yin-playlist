@@ -32,7 +32,7 @@
   "sSinger" : "胡夏",
   "sSign" : "温柔治愈",
   "sPre" : "A",
-  "sUpDown" : "3",
+  "sUpDown" : "2",
   "aCount" : 0,
   "bCount" : 2,
   "createTime" : 1744712868000,
@@ -54,6 +54,34 @@
   "sumCount" : 10,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "爱你",
+  "sSinger" : "徐俊雅",
+  "sSign" : "温柔治愈",
+  "sPre" : "A",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "爱河",
+  "sSinger" : "郁可唯",
+  "sSign" : "温柔治愈",
+  "sPre" : "A",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "阿婆说",
@@ -110,6 +138,34 @@
   "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "爱上你",
+  "sSinger" : "江迟同学",
+  "sSign" : "活泼可爱",
+  "sPre" : "A",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "爱,存在",
+  "sSinger" : "林小珂",
+  "sSign" : "悲伤情歌",
+  "sPre" : "A",
+  "sUpDown" : "-3",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "熬夜上瘾",
@@ -206,7 +262,7 @@
   "createTime" : 1750071078000,
   "updateTime" : 1781875867000,
   "sumCount" : 3,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -291,7 +347,7 @@
   "updateTime" : null,
   "sumCount" : 1,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "阿拉斯加海湾",
@@ -476,6 +532,20 @@
   "isNew" : 0
 }, {
   "id" : null,
+  "sName" : "玻璃",
+  "sSinger" : "Gareth.T",
+  "sSign" : "RNB",
+  "sPre" : "B",
+  "sUpDown" : "3",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
   "sName" : "百利甜",
   "sSinger" : "魏晗",
   "sSign" : "民谣乐队杂食",
@@ -627,7 +697,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "别回头",
@@ -641,7 +711,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "不药而愈",
@@ -809,6 +879,20 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "百年孤寂",
+  "sSinger" : "王菲",
+  "sSign" : "悲伤情歌",
+  "sPre" : "B",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -949,6 +1033,48 @@
   "updateTime" : 1780837790000,
   "sumCount" : 1,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "不完美小孩",
+  "sSinger" : "金美辰",
+  "sSign" : "温柔治愈",
+  "sPre" : "B",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "不就是落单",
+  "sSinger" : "薛明媛",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "B",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "被驯服的象",
+  "sSinger" : "蔡健雅",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "B",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -978,6 +1104,20 @@
   "sumCount" : 8,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "别融化在空气里",
+  "sSinger" : "祁紫檀",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "B",
+  "sUpDown" : "-2",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "不普通的普通女孩",
@@ -1034,6 +1174,20 @@
   "sumCount" : 3,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "春",
+  "sSinger" : "陈文非",
+  "sSign" : "温柔治愈",
+  "sPre" : "C",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "沉鱼",
@@ -1215,6 +1369,34 @@
   "updateTime" : null,
   "sumCount" : 1,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "春风",
+  "sSinger" : "四熹丸子",
+  "sSign" : "温柔治愈",
+  "sPre" : "C",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "冲动",
+  "sSinger" : "印子月",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "C",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -1330,6 +1512,20 @@
   "isNew" : 0
 }, {
   "id" : null,
+  "sName" : "耻辱柱",
+  "sSinger" : "刘思鉴",
+  "sSign" : "RNB",
+  "sPre" : "C",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
   "sName" : "错位时空",
   "sSinger" : "艾辰",
   "sSign" : "悲伤情歌",
@@ -1376,7 +1572,7 @@
   "sSinger" : "王贰浪",
   "sSign" : "悲伤情歌",
   "sPre" : "C",
-  "sUpDown" : "0",
+  "sUpDown" : "-1",
   "aCount" : 0,
   "bCount" : 1,
   "createTime" : 1742046473000,
@@ -1495,7 +1691,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "窗外小雨",
@@ -1509,7 +1705,7 @@
   "updateTime" : 1778509558000,
   "sumCount" : 1,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "长街万象",
@@ -1520,6 +1716,34 @@
   "aCount" : 0,
   "bCount" : 0,
   "createTime" : 1773225891000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "词不达意",
+  "sSinger" : "林忆莲",
+  "sSign" : "悲伤情歌",
+  "sPre" : "C",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "CarbonDioxide",
+  "sSinger" : "王艳薇",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "C",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
@@ -1778,6 +2002,20 @@
   "isNew" : 0
 }, {
   "id" : null,
+  "sName" : "倒影",
+  "sSinger" : "朱恒锐",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "D",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
   "sName" : "都选C",
   "sSinger" : "缝纫机乐队",
   "sSign" : "民谣乐队杂食",
@@ -1915,7 +2153,7 @@
   "updateTime" : null,
   "sumCount" : 2,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "等归人",
@@ -1929,7 +2167,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "盗橘令",
@@ -1940,6 +2178,34 @@
   "aCount" : 0,
   "bCount" : 0,
   "createTime" : 1773225891000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "胆小鬼",
+  "sSinger" : "梁咏琪",
+  "sSign" : "温柔治愈",
+  "sPre" : "D",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "东极岛",
+  "sSinger" : "粥粥和小伙",
+  "sSign" : "温柔治愈",
+  "sPre" : "D",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
@@ -2090,7 +2356,7 @@
   "sSinger" : "张远",
   "sSign" : "古风国风",
   "sPre" : "D",
-  "sUpDown" : "2",
+  "sUpDown" : "3",
   "aCount" : 1,
   "bCount" : 2,
   "createTime" : 1764150474000,
@@ -2111,7 +2377,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "东京不太热",
@@ -2208,8 +2474,8 @@
   "createTime" : 1773225891000,
   "updateTime" : 1779890558000,
   "sumCount" : 4,
-  "isHot" : 2,
-  "isNew" : 1
+  "isHot" : 0,
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "踮起脚尖爱",
@@ -2223,7 +2489,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "对方正在输入",
@@ -2252,6 +2518,20 @@
   "sumCount" : 2,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "第57次取消发送",
+  "sSinger" : "菲菲公主",
+  "sSign" : "悲伤情歌",
+  "sPre" : "D",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "带我去很远地方",
@@ -2307,6 +2587,20 @@
   "updateTime" : null,
   "sumCount" : 1,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "Dear D(亲爱的告诉你)",
+  "sSinger" : "项睿娴",
+  "sSign" : "温柔治愈",
+  "sPre" : "D",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -2349,7 +2643,7 @@
   "updateTime" : 1774879262000,
   "sumCount" : 2,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "房间",
@@ -2392,6 +2686,20 @@
   "sumCount" : 0,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "浮木",
+  "sSinger" : "枕然",
+  "sSign" : "温柔治愈",
+  "sPre" : "F",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "风月关",
@@ -2503,7 +2811,7 @@
   "updateTime" : 1780582638000,
   "sumCount" : 1,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "风过谢桃花",
@@ -2629,6 +2937,48 @@
   "updateTime" : 1775657408000,
   "sumCount" : 4,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "果实",
+  "sSinger" : "陈粒",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "G",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "够爱",
+  "sSinger" : "曾沛慈",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "G",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "Go, Bye!",
+  "sSinger" : "王ok",
+  "sSign" : "RNB",
+  "sPre" : "G",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -2651,12 +3001,12 @@
   "sSign" : "古风国风",
   "sPre" : "G",
   "sUpDown" : "0",
-  "aCount" : 1,
+  "aCount" : 2,
   "bCount" : 0,
   "createTime" : 1744712868000,
-  "updateTime" : 1765979741000,
-  "sumCount" : 1,
-  "isHot" : 0,
+  "updateTime" : 1782656136000,
+  "sumCount" : 2,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -2727,7 +3077,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "咖喱咖喱",
@@ -2881,6 +3231,34 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "归途有风",
+  "sSinger" : "王菲",
+  "sSign" : "温柔治愈",
+  "sPre" : "G",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "孤单心事",
+  "sSinger" : "蓝又时",
+  "sSign" : "悲伤情歌",
+  "sPre" : "G",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -2944,7 +3322,7 @@
   "sSinger" : "黄诗扶",
   "sSign" : "古风国风",
   "sPre" : "G",
-  "sUpDown" : "-1",
+  "sUpDown" : "-2",
   "aCount" : 1,
   "bCount" : 1,
   "createTime" : 1764150474000,
@@ -2965,14 +3343,14 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "给未来的自己",
   "sSinger" : "梁静茹",
   "sSign" : "温柔治愈",
   "sPre" : "G",
-  "sUpDown" : "0",
+  "sUpDown" : "-1",
   "aCount" : 2,
   "bCount" : 4,
   "createTime" : 1742046473000,
@@ -2987,13 +3365,27 @@
   "sSign" : "悲伤情歌",
   "sPre" : "G",
   "sUpDown" : "0",
-  "aCount" : 4,
+  "aCount" : 5,
   "bCount" : 3,
   "createTime" : 1742046473000,
-  "updateTime" : 1763211173000,
-  "sumCount" : 7,
-  "isHot" : 0,
+  "updateTime" : 1782577649000,
+  "sumCount" : 8,
+  "isHot" : 1,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "关掉细碎的烦恼",
+  "sSinger" : "尹毓恪",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "G",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "给我一个理由忘记",
@@ -3343,6 +3735,20 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "好春光",
+  "sSinger" : "吴彤",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "H",
+  "sUpDown" : "2",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -3482,7 +3888,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1781962989000,
   "sumCount" : 2,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -3498,6 +3904,34 @@
   "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "好的事情",
+  "sSinger" : "严爵",
+  "sSign" : "温柔治愈",
+  "sPre" : "H",
+  "sUpDown" : "2/0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "黄昏的恋",
+  "sSinger" : "正在进行石女士",
+  "sSign" : "温柔治愈",
+  "sPre" : "H",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "会呼吸的痛",
@@ -3580,6 +4014,20 @@
   "createTime" : 1773225891000,
   "updateTime" : 1778591466000,
   "sumCount" : 1,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "红色高跟鞋",
+  "sSinger" : "蔡健雅",
+  "sSign" : "悲伤情歌",
+  "sPre" : "H",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
   "isHot" : 0,
   "isNew" : 1
 }, {
@@ -3694,6 +4142,20 @@
   "sumCount" : 2,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "Into The Wild",
+  "sSinger" : "蔡健雅",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "I",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "剑魂",
@@ -4001,6 +4463,20 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "惊鸿现",
+  "sSinger" : "浅影阿",
+  "sSign" : "古风国风",
+  "sPre" : "J",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -4066,10 +4542,10 @@
   "sPre" : "J",
   "sUpDown" : "0",
   "aCount" : 1,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
   "updateTime" : 1739971091000,
-  "sumCount" : 1,
+  "sumCount" : 2,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -4172,6 +4648,20 @@
   "isNew" : 0
 }, {
   "id" : null,
+  "sName" : "尽管如此，还是",
+  "sSinger" : "阿肆",
+  "sSign" : "温柔治愈",
+  "sPre" : "J",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
   "sName" : "金榜外·纸上尘埃",
   "sSinger" : "河图",
   "sSign" : "古风国风",
@@ -4218,12 +4708,26 @@
   "sSinger" : "任素汐",
   "sSign" : "温柔治愈",
   "sPre" : "K",
-  "sUpDown" : "0",
+  "sUpDown" : "-1",
   "aCount" : 1,
   "bCount" : 1,
   "createTime" : 1773225891000,
   "updateTime" : 1777211862000,
   "sumCount" : 2,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "空",
+  "sSinger" : "徐海俏",
+  "sSign" : "悲伤情歌",
+  "sPre" : "K",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
   "isHot" : 0,
   "isNew" : 1
 }, {
@@ -4253,7 +4757,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "可能否",
@@ -4397,10 +4901,10 @@
 }, {
   "id" : null,
   "sName" : "可惜不是你",
-  "sSinger" : "曹轩宾",
+  "sSinger" : "梁静茹",
   "sSign" : "悲伤情歌",
   "sPre" : "K",
-  "sUpDown" : "2",
+  "sUpDown" : "-1",
   "aCount" : 2,
   "bCount" : 0,
   "createTime" : 1744712868000,
@@ -4435,7 +4939,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "看月亮爬上来",
@@ -4456,7 +4960,7 @@
   "sSinger" : "戴羽彤",
   "sSign" : "民谣乐队杂食",
   "sPre" : "K",
-  "sUpDown" : "-1",
+  "sUpDown" : "-2",
   "aCount" : 3,
   "bCount" : 2,
   "createTime" : 1742046473000,
@@ -4512,7 +5016,7 @@
   "sSinger" : "艾辰",
   "sSign" : "古风国风",
   "sPre" : "L",
-  "sUpDown" : "4",
+  "sUpDown" : "3",
   "aCount" : 0,
   "bCount" : 0,
   "createTime" : 1744712868000,
@@ -4645,7 +5149,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "怜悯",
@@ -4656,6 +5160,20 @@
   "aCount" : 0,
   "bCount" : 0,
   "createTime" : 1773225891000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "落砂",
+  "sSinger" : "金玟岐",
+  "sSign" : "悲伤情歌",
+  "sPre" : "L",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
@@ -4758,6 +5276,20 @@
   "sumCount" : 0,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "老旧坡",
+  "sSinger" : "马梓皓",
+  "sSign" : "古风国风",
+  "sPre" : "L",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "Letting Go",
@@ -4925,7 +5457,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "连名带姓",
@@ -4939,7 +5471,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "离开我的依赖",
@@ -4954,6 +5486,20 @@
   "sumCount" : 4,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "裂缝中的阳光",
+  "sSinger" : "林俊杰",
+  "sSign" : "温柔治愈",
+  "sPre" : "L",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "路过人间的情书",
@@ -5002,7 +5548,7 @@
   "sSinger" : "李润祺",
   "sSign" : "悲伤情歌",
   "sPre" : "M",
-  "sUpDown" : "3",
+  "sUpDown" : "0",
   "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
@@ -5108,6 +5654,34 @@
   "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "满纸",
+  "sSinger" : "阿鲲",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "M",
+  "sUpDown" : "3",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "迷宫",
+  "sSinger" : "依加",
+  "sSign" : "RNB",
+  "sPre" : "M",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "慢慢懂",
@@ -5359,7 +5933,7 @@
   "updateTime" : null,
   "sumCount" : 2,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "莫问归期",
@@ -5373,7 +5947,7 @@
   "updateTime" : null,
   "sumCount" : 1,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "明知故犯",
@@ -5387,7 +5961,7 @@
   "updateTime" : 1780490814000,
   "sumCount" : 3,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "明天,你好",
@@ -5422,7 +5996,7 @@
   "sSinger" : "斯斯与帆",
   "sSign" : "民谣乐队杂食",
   "sPre" : "M",
-  "sUpDown" : "0",
+  "sUpDown" : "-1",
   "aCount" : 1,
   "bCount" : 3,
   "createTime" : 1742046473000,
@@ -5485,7 +6059,7 @@
   "updateTime" : null,
   "sumCount" : 1,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "每一天都不同",
@@ -5500,6 +6074,20 @@
   "sumCount" : 5,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "慢慢来比较快",
+  "sSinger" : "梁静茹",
+  "sSign" : "温柔治愈",
+  "sPre" : "M",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "满天星辰不及你",
@@ -5556,6 +6144,20 @@
   "sumCount" : 0,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "你",
+  "sSinger" : "林依晨",
+  "sSign" : "活泼可爱",
+  "sPre" : "N",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "暖暖",
@@ -5625,7 +6227,7 @@
   "updateTime" : 1782050497000,
   "sumCount" : 1,
   "isHot" : 1,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "New Boy",
@@ -5718,10 +6320,10 @@
   "sPre" : "N",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 3,
+  "bCount" : 4,
   "createTime" : 1742046473000,
   "updateTime" : null,
-  "sumCount" : 3,
+  "sumCount" : 4,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -5807,7 +6409,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "你的香气",
@@ -5821,7 +6423,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "那个男孩",
@@ -5835,7 +6437,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "你,好不好?",
@@ -5905,7 +6507,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "你给我听好",
@@ -5919,7 +6521,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "你是倒映的微星",
@@ -5976,6 +6578,20 @@
   "sumCount" : 2,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "南半球与北海道",
+  "sSinger" : "范倪",
+  "sSign" : "悲伤情歌",
+  "sPre" : "N",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "那年夏天宁静的海",
@@ -6356,6 +6972,20 @@
   "isNew" : 0
 }, {
   "id" : null,
+  "sName" : "秋风",
+  "sSinger" : "四熹丸子",
+  "sSign" : "悲伤情歌",
+  "sPre" : "Q",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
   "sName" : "七月上",
   "sSinger" : "Jam",
   "sSign" : "民谣乐队杂食",
@@ -6492,8 +7122,8 @@
   "createTime" : 1773225891000,
   "updateTime" : 1781875867000,
   "sumCount" : 1,
-  "isHot" : 1,
-  "isNew" : 1
+  "isHot" : 0,
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "琼花房",
@@ -6507,7 +7137,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "气象站台",
@@ -6620,6 +7250,20 @@
   "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "情字最大",
+  "sSinger" : "浅影阿",
+  "sSign" : "古风国风",
+  "sPre" : "Q",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "晴天，雨天",
@@ -6738,7 +7382,7 @@
   "sSinger" : "任素汐",
   "sSign" : "温柔治愈",
   "sPre" : "Q",
-  "sUpDown" : "0",
+  "sUpDown" : "0/-1",
   "aCount" : 2,
   "bCount" : 2,
   "createTime" : 1764150474000,
@@ -6756,6 +7400,20 @@
   "aCount" : 0,
   "bCount" : 0,
   "createTime" : 1773225891000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "青春的颜色",
+  "sSinger" : "粥粥和小伙",
+  "sSign" : "温柔治愈",
+  "sPre" : "Q",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
@@ -6788,6 +7446,20 @@
   "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "清平乐·别来春半",
+  "sSinger" : "早已经不写诗了",
+  "sSign" : "古风国风",
+  "sPre" : "Q",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "亲爱的，那不是爱情",
@@ -6969,6 +7641,20 @@
   "updateTime" : 1778420443000,
   "sumCount" : 2,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "人间共鸣",
+  "sSinger" : "李健",
+  "sSign" : "温柔治愈",
+  "sPre" : "R",
+  "sUpDown" : "3",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -7094,8 +7780,8 @@
   "createTime" : 1773225891000,
   "updateTime" : 1781875867000,
   "sumCount" : 1,
-  "isHot" : 1,
-  "isNew" : 1
+  "isHot" : 0,
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "如果声音不记得",
@@ -7109,7 +7795,7 @@
   "updateTime" : 1775744531000,
   "sumCount" : 2,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "如果我们不曾相遇",
@@ -7130,14 +7816,14 @@
   "sSinger" : "王赫野",
   "sSign" : "民谣乐队杂食",
   "sPre" : "R",
-  "sUpDown" : "1",
+  "sUpDown" : "3",
   "aCount" : 0,
   "bCount" : 1,
   "createTime" : 1773225891000,
   "updateTime" : null,
   "sumCount" : 1,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "如果你要写风就别只写风",
@@ -7347,6 +8033,20 @@
   "updateTime" : null,
   "sumCount" : 1,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "深蓝",
+  "sSinger" : "陈婧霏",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "S",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -7430,7 +8130,7 @@
   "createTime" : 1742046473000,
   "updateTime" : 1781875867000,
   "sumCount" : 8,
-  "isHot" : 1,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -7837,7 +8537,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "说散就散",
@@ -7851,7 +8551,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "私奔到月球",
@@ -7986,10 +8686,10 @@
   "sPre" : "S",
   "sUpDown" : "0",
   "aCount" : 2,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1755758165000,
   "updateTime" : 1780666936000,
-  "sumCount" : 2,
+  "sumCount" : 3,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -8005,7 +8705,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "十九岁的一天",
@@ -8054,7 +8754,7 @@
   "sSinger" : "周杰伦",
   "sSign" : "悲伤情歌",
   "sPre" : "S",
-  "sUpDown" : "0",
+  "sUpDown" : "2",
   "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1742046473000,
@@ -8124,14 +8824,14 @@
   "sSinger" : "张靓颖",
   "sSign" : "民谣乐队杂食",
   "sPre" : "S",
-  "sUpDown" : "0",
+  "sUpDown" : "-1",
   "aCount" : 1,
   "bCount" : 1,
   "createTime" : 1773225891000,
   "updateTime" : 1775657408000,
   "sumCount" : 2,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "酸酸甜甜就是我",
@@ -8145,7 +8845,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "世界上的另一个我",
@@ -8154,10 +8854,10 @@
   "sPre" : "S",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 1,
+  "bCount" : 2,
   "createTime" : 1764150474000,
   "updateTime" : null,
-  "sumCount" : 1,
+  "sumCount" : 2,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -8216,6 +8916,20 @@
   "sumCount" : 2,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "天",
+  "sSinger" : "关浩德",
+  "sSign" : "RNB",
+  "sPre" : "T",
+  "sUpDown" : "3",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "Trap",
@@ -8390,10 +9104,38 @@
   "sSinger" : "王贰浪",
   "sSign" : "温柔治愈",
   "sPre" : "T",
-  "sUpDown" : "-1",
+  "sUpDown" : "0",
   "aCount" : 0,
   "bCount" : 0,
   "createTime" : 1773225891000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "天赋",
+  "sSinger" : "唐嫣",
+  "sSign" : "悲伤情歌",
+  "sPre" : "T",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "她说",
+  "sSinger" : "林俊杰",
+  "sSign" : "悲伤情歌",
+  "sPre" : "T",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
@@ -8596,6 +9338,20 @@
   "isNew" : 0
 }, {
   "id" : null,
+  "sName" : "Tiny Giant",
+  "sSinger" : "绝区零",
+  "sSign" : "活泼可爱",
+  "sPre" : "T",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
   "sName" : "天渊之别",
   "sSinger" : "董书含",
   "sSign" : "温柔治愈",
@@ -8705,7 +9461,7 @@
   "updateTime" : null,
   "sumCount" : 3,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "听到请回答",
@@ -8720,6 +9476,20 @@
   "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "天文望远镜",
+  "sSinger" : "江源东",
+  "sSign" : "RNB",
+  "sPre" : "T",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "推开世界的门",
@@ -8951,12 +9721,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "W",
   "sUpDown" : "0",
-  "aCount" : 6,
+  "aCount" : 7,
   "bCount" : 5,
   "createTime" : 1742046473000,
-  "updateTime" : 1772114703000,
-  "sumCount" : 11,
-  "isHot" : 0,
+  "updateTime" : 1782577649000,
+  "sumCount" : 12,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -8999,7 +9769,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "唯一",
@@ -9013,7 +9783,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "唯一",
@@ -9027,7 +9797,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "晚枫歌",
@@ -9240,6 +10010,34 @@
   "isNew" : 0
 }, {
   "id" : null,
+  "sName" : "吴哥窟",
+  "sSinger" : "吴雨霏",
+  "sSign" : "悲伤情歌",
+  "sPre" : "W",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "无杂质",
+  "sSinger" : "蔡宥绮",
+  "sSign" : "温柔治愈",
+  "sPre" : "W",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
   "sName" : "勿忘心安",
   "sSinger" : "张杰",
   "sSign" : "温柔治愈",
@@ -9356,7 +10154,7 @@
   "sSinger" : "汪苏泷",
   "sSign" : "活泼可爱",
   "sPre" : "W",
-  "sUpDown" : "3",
+  "sUpDown" : "0",
   "aCount" : 1,
   "bCount" : 5,
   "createTime" : 1742046473000,
@@ -9475,7 +10273,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "我的秘密",
@@ -9486,6 +10284,34 @@
   "aCount" : 0,
   "bCount" : 0,
   "createTime" : 1773225891000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "我的阁楼",
+  "sSinger" : "Brian Cheng",
+  "sSign" : "活泼可爱",
+  "sPre" : "W",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "我说你呀",
+  "sSinger" : "李雨霏",
+  "sSign" : "悲伤情歌",
+  "sPre" : "W",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
@@ -9602,6 +10428,20 @@
   "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "我有我爱我",
+  "sSinger" : "少年霜",
+  "sSign" : "温柔治愈",
+  "sPre" : "W",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "我从崖边跌落",
@@ -9797,6 +10637,34 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "我恨明月不照我",
+  "sSinger" : "阿YueYue",
+  "sSign" : "古风国风",
+  "sPre" : "W",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "午夜将灵魂化开",
+  "sSinger" : "孟慧圆",
+  "sSign" : "温柔治愈",
+  "sPre" : "W",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -9875,12 +10743,12 @@
   "sSign" : "温柔治愈",
   "sPre" : "X",
   "sUpDown" : "-1",
-  "aCount" : 11,
+  "aCount" : 12,
   "bCount" : 32,
   "createTime" : 1742046473000,
-  "updateTime" : 1779282367000,
-  "sumCount" : 43,
-  "isHot" : 0,
+  "updateTime" : 1783086869000,
+  "sumCount" : 44,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -10002,10 +10870,10 @@
   "sPre" : "X",
   "sUpDown" : "4",
   "aCount" : 1,
-  "bCount" : 3,
+  "bCount" : 4,
   "createTime" : 1744712868000,
   "updateTime" : 1754313829000,
-  "sumCount" : 4,
+  "sumCount" : 5,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -10077,7 +10945,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "勋章",
@@ -10091,6 +10959,20 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "小云",
+  "sSinger" : "黄霄云",
+  "sSign" : "活泼可爱",
+  "sPre" : "X",
+  "sUpDown" : "0",
+  "aCount" : 1,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : 1783000380000,
+  "sumCount" : 1,
+  "isHot" : 1,
   "isNew" : 1
 }, {
   "id" : null,
@@ -10378,7 +11260,7 @@
   "sSinger" : "张栋梁",
   "sSign" : "活泼可爱",
   "sPre" : "X",
-  "sUpDown" : "0",
+  "sUpDown" : "3",
   "aCount" : 1,
   "bCount" : 0,
   "createTime" : 1764150474000,
@@ -10413,7 +11295,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "谢谢你",
@@ -10426,6 +11308,48 @@
   "createTime" : 1773225891000,
   "updateTime" : null,
   "sumCount" : 1,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "小小诗",
+  "sSinger" : "Mogoo蘑菇",
+  "sSign" : "悲伤情歌",
+  "sPre" : "X",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "小模样",
+  "sSinger" : "张小只ya",
+  "sSign" : "活泼可爱",
+  "sPre" : "X",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "相思遥",
+  "sSinger" : "魏玉慧",
+  "sSign" : "古风国风",
+  "sPre" : "X",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
   "isHot" : 0,
   "isNew" : 1
 }, {
@@ -10595,6 +11519,34 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "幸运笨蛋",
+  "sSinger" : "孟慧圆",
+  "sSign" : "活泼可爱",
+  "sPre" : "X",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "星·Sailing",
+  "sSinger" : "单依纯",
+  "sSign" : "温柔治愈",
+  "sPre" : "X",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -10646,10 +11598,10 @@
   "sPre" : "X",
   "sUpDown" : "0",
   "aCount" : 0,
-  "bCount" : 0,
+  "bCount" : 1,
   "createTime" : 1742046473000,
   "updateTime" : null,
-  "sumCount" : 0,
+  "sumCount" : 1,
   "isHot" : 0,
   "isNew" : 0
 }, {
@@ -10742,14 +11694,14 @@
   "sSinger" : "松柏",
   "sSign" : "温柔治愈",
   "sPre" : "X",
-  "sUpDown" : "3",
+  "sUpDown" : "4",
   "aCount" : 0,
   "bCount" : 0,
   "createTime" : 1773225891000,
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "下一站茶山刘",
@@ -10847,7 +11799,7 @@
   "updateTime" : null,
   "sumCount" : 1,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "想谈恋爱这件事",
@@ -10910,12 +11862,40 @@
   "sSinger" : "陈亦云",
   "sSign" : "悲伤情歌",
   "sPre" : "Y",
-  "sUpDown" : "5",
+  "sUpDown" : "53",
   "aCount" : 2,
   "bCount" : 0,
   "createTime" : 1773225891000,
   "updateTime" : 1779282367000,
   "sumCount" : 2,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "鱼",
+  "sSinger" : "陈绮贞",
+  "sSign" : "悲伤情歌",
+  "sPre" : "Y",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "吟",
+  "sSinger" : "刘美麟",
+  "sSign" : "悲伤情歌",
+  "sPre" : "Y",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
   "isHot" : 0,
   "isNew" : 1
 }, {
@@ -10935,10 +11915,10 @@
 }, {
   "id" : null,
   "sName" : "雨爱",
-  "sSinger" : "王琪玮",
+  "sSinger" : "戴羽彤",
   "sSign" : "悲伤情歌",
   "sPre" : "Y",
-  "sUpDown" : "3",
+  "sUpDown" : "0",
   "aCount" : 6,
   "bCount" : 1,
   "createTime" : 1742046473000,
@@ -11037,12 +12017,12 @@
   "sSign" : "悲伤情歌",
   "sPre" : "Y",
   "sUpDown" : "1",
-  "aCount" : 19,
+  "aCount" : 20,
   "bCount" : 9,
   "createTime" : 1742046473000,
-  "updateTime" : 1777986581000,
-  "sumCount" : 28,
-  "isHot" : 0,
+  "updateTime" : 1782656136000,
+  "sumCount" : 29,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -11100,6 +12080,48 @@
   "sumCount" : 0,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "夜半",
+  "sSinger" : "谢宇伦",
+  "sSign" : "悲伤情歌",
+  "sPre" : "Y",
+  "sUpDown" : "3",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "愿望",
+  "sSinger" : "胡彦斌",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "Y",
+  "sUpDown" : "3",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "异客",
+  "sSinger" : "杨坤",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "Y",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "异乡人",
@@ -11380,6 +12402,20 @@
   "sumCount" : 4,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "樱花草",
+  "sSinger" : "sweety",
+  "sSign" : "温柔治愈",
+  "sPre" : "Y",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "遥远的你",
@@ -11673,7 +12709,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "一路向北",
@@ -11687,7 +12723,7 @@
   "updateTime" : 1779200485000,
   "sumCount" : 1,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "烟花易冷",
@@ -11701,7 +12737,7 @@
   "updateTime" : null,
   "sumCount" : 1,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "永远永远",
@@ -11715,7 +12751,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "永远永远",
@@ -11729,7 +12765,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "言不由衷",
@@ -11743,6 +12779,34 @@
   "updateTime" : 1782309329000,
   "sumCount" : 3,
   "isHot" : 1,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "一等情事",
+  "sSinger" : "许一鸣",
+  "sSign" : "悲伤情歌",
+  "sPre" : "Y",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "一程山路",
+  "sSinger" : "毛不易",
+  "sSign" : "温柔治愈",
+  "sPre" : "Y",
+  "sUpDown" : "3",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -11939,7 +13003,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "烟雨唱扬州",
@@ -11952,6 +13016,34 @@
   "createTime" : 1773225891000,
   "updateTime" : null,
   "sumCount" : 1,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "雨不停。流",
+  "sSinger" : "孙盛希",
+  "sSign" : "悲伤情歌",
+  "sPre" : "Y",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "远去的列车",
+  "sSinger" : "四熹丸子",
+  "sSign" : "温柔治愈",
+  "sPre" : "Y",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
   "isHot" : 0,
   "isNew" : 1
 }, {
@@ -12040,17 +13132,45 @@
   "isNew" : 0
 }, {
   "id" : null,
+  "sName" : "雨是神的烟花",
+  "sSinger" : "Nyxx.",
+  "sSign" : "民谣乐队杂食",
+  "sPre" : "Y",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "用背脊唱情歌",
+  "sSinger" : "Gareth.T",
+  "sSign" : "悲伤情歌",
+  "sPre" : "Y",
+  "sUpDown" : "3",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
   "sName" : "淤泥深处的星星",
   "sSinger" : "马里奥",
   "sSign" : "温柔治愈",
   "sPre" : "Y",
   "sUpDown" : "3/0",
-  "aCount" : 4,
+  "aCount" : 5,
   "bCount" : 0,
   "createTime" : 1742046473000,
-  "updateTime" : 1766411172000,
-  "sumCount" : 4,
-  "isHot" : 0,
+  "updateTime" : 1782577649000,
+  "sumCount" : 5,
+  "isHot" : 1,
   "isNew" : 0
 }, {
   "id" : null,
@@ -12093,7 +13213,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "一个人想着一个人",
@@ -12386,7 +13506,7 @@
   "createTime" : 1764150474000,
   "updateTime" : 1780490814000,
   "sumCount" : 5,
-  "isHot" : 2,
+  "isHot" : 0,
   "isNew" : 0
 }, {
   "id" : null,
@@ -12402,6 +13522,48 @@
   "sumCount" : 0,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "挚友",
+  "sSinger" : "A-Lin",
+  "sSign" : "悲伤情歌",
+  "sPre" : "Z",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "止渴",
+  "sSinger" : "阿YueYue",
+  "sSign" : "悲伤情歌",
+  "sPre" : "Z",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "坠落",
+  "sSinger" : "蔡健雅",
+  "sSign" : "悲伤情歌",
+  "sPre" : "Z",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "怎么了",
@@ -12555,7 +13717,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "知否知否",
@@ -12723,7 +13885,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "终于明白",
@@ -12737,7 +13899,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "只是太爱你",
@@ -12933,7 +14095,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "至少还有你",
@@ -12947,7 +14109,7 @@
   "updateTime" : null,
   "sumCount" : 1,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "追风赶月的人",
@@ -13004,6 +14166,20 @@
   "sumCount" : 3,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "怎么你都不在",
+  "sSinger" : "ACHI",
+  "sSign" : "悲伤情歌",
+  "sPre" : "Z",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "这世界那么多人",
@@ -13073,7 +14249,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "致我所爱的一切",
@@ -13087,7 +14263,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "直到遇见了你我只喜欢你",
@@ -13143,6 +14319,20 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "風の記憶(风的记忆)",
+  "sSinger" : "熊木杏里",
+  "sSign" : "外语杂食",
+  "sPre" : "日语",
+  "sUpDown" : "-1",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -13154,6 +14344,20 @@
   "aCount" : 0,
   "bCount" : 0,
   "createTime" : 1773225891000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "花に想いを(对花的思念)",
+  "sSinger" : "テゴマス",
+  "sSign" : "外语杂食",
+  "sPre" : "日语",
+  "sUpDown" : "2",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
@@ -13174,6 +14378,20 @@
   "isNew" : 0
 }, {
   "id" : null,
+  "sName" : "おどるポンポコリン(大家一起来跳舞)",
+  "sSinger" : "大原櫻子",
+  "sSign" : "外语杂食",
+  "sPre" : "日语",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
   "sName" : "Ghost(隐匿)",
   "sSinger" : "Jeff Satur",
   "sSign" : "外语杂食",
@@ -13185,7 +14403,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "มนตรา(Mantra)",
@@ -13228,6 +14446,20 @@
   "sumCount" : 0,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "ภาพสุดท้าย(最后的画面)",
+  "sSinger" : "william",
+  "sSign" : "外语杂食",
+  "sPre" : "泰语",
+  "sUpDown" : "2",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "ไม่ได้ก็ไม่เอา(Whatever)",
@@ -13297,7 +14529,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "My Love",
@@ -13381,6 +14613,20 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "Superstar",
+  "sSinger" : "七元",
+  "sSign" : "外语杂食",
+  "sPre" : "英文",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
   "isNew" : 1
 }, {
   "id" : null,
@@ -13395,7 +14641,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "Ride or Die",
@@ -13423,7 +14669,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "Fragile Thing",
@@ -13434,6 +14680,34 @@
   "aCount" : 0,
   "bCount" : 0,
   "createTime" : 1773225891000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "Communication",
+  "sSinger" : "The Cardigans",
+  "sSign" : "外语杂食",
+  "sPre" : "英文",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "Radio(Dum-Dum)",
+  "sSinger" : "宋雨琦",
+  "sSign" : "外语杂食",
+  "sPre" : "英文",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
@@ -13486,7 +14760,7 @@
   "sSinger" : "Smith＆Thell",
   "sSign" : "外语杂食",
   "sPre" : "英文",
-  "sUpDown" : "-2",
+  "sUpDown" : "0/-2",
   "aCount" : 0,
   "bCount" : 0,
   "createTime" : 1755758165000,
@@ -13524,6 +14798,20 @@
   "isNew" : 0
 }, {
   "id" : null,
+  "sName" : "0",
+  "sSinger" : "Cnblue",
+  "sSign" : "外语杂食",
+  "sPre" : "韩语",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
   "sName" : "后",
   "sSinger" : "J-Min",
   "sSign" : "外语杂食",
@@ -13549,7 +14837,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "古树",
@@ -13577,7 +14865,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "You(=I)",
@@ -13588,6 +14876,34 @@
   "aCount" : 0,
   "bCount" : 0,
   "createTime" : 1773225891000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "Run Away",
+  "sSinger" : "魏晨",
+  "sSign" : "外语杂食",
+  "sPre" : "韩语",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "Whiplash",
+  "sSinger" : "aespa",
+  "sSign" : "外语杂食",
+  "sPre" : "韩语",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
@@ -13620,6 +14936,48 @@
   "sumCount" : 0,
   "isHot" : 0,
   "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "외침(呐喊)",
+  "sSinger" : "D.O.",
+  "sSign" : "外语杂食",
+  "sPre" : "韩语",
+  "sUpDown" : "3",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "풍선(Balloons)",
+  "sSinger" : "东方神起",
+  "sSign" : "外语杂食",
+  "sPre" : "韩语",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "Imaginary Friend",
+  "sSinger" : "ITZY",
+  "sSign" : "外语杂食",
+  "sPre" : "韩语",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
 }, {
   "id" : null,
   "sName" : "Welcome to the Show",
@@ -13871,7 +15229,7 @@
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
-  "isNew" : 1
+  "isNew" : 0
 }, {
   "id" : null,
   "sName" : "그리워서...(因为想念...)",
@@ -13980,6 +15338,48 @@
   "aCount" : 0,
   "bCount" : 0,
   "createTime" : 1773225891000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 0
+}, {
+  "id" : null,
+  "sName" : "제주도의 푸른 밤(济州岛的蓝夜)",
+  "sSinger" : "泰妍",
+  "sSign" : "外语杂食",
+  "sPre" : "韩语",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "스물다섯, 스물하나(二十五,二十一)",
+  "sSinger" : "younha",
+  "sSign" : "外语杂食",
+  "sPre" : "韩语",
+  "sUpDown" : "-3",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
+  "updateTime" : null,
+  "sumCount" : 0,
+  "isHot" : 0,
+  "isNew" : 1
+}, {
+  "id" : null,
+  "sName" : "한 페이지가 될 수 있게(让我成为那一页)",
+  "sSinger" : "DAY6",
+  "sSign" : "外语杂食",
+  "sPre" : "韩语",
+  "sUpDown" : "0",
+  "aCount" : 0,
+  "bCount" : 0,
+  "createTime" : 1783161437000,
   "updateTime" : null,
   "sumCount" : 0,
   "isHot" : 0,
