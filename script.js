@@ -225,7 +225,7 @@ layui.use(function(){
             size:'lg',
             data: rankList,
             cols: [[
-                {field:'sName', title: '歌名',width:140},
+                {field:'sName', title: '歌名',width:160},
                 {field:'sumCount', title: '点歌次数', width:90},
                 {field:'aCount', title: 'A', width:60, sort: true},
                 {field:'bCount', title: 'B', width:60, sort: true},
