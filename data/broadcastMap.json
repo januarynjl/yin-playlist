@@ -1706,6 +1706,15 @@
     "url" : "https://www.acfun.cn/v/ac48152468",
     "pt" : "A"
   } ],
+  "2026-07-05" : [ {
+    "liveDate" : "2026-07-05",
+    "url" : "https://www.acfun.cn/v/ac48668897",
+    "pt" : "A"
+  }, {
+    "liveDate" : "2026-07-05",
+    "url" : "https://www.bilibili.com/video/BV1cNTC65EXF/",
+    "pt" : "B"
+  } ],
   "2025-04-20" : [ {
     "liveDate" : "2025-04-20",
     "url" : "https://www.acfun.cn/v/ac47164424",
@@ -2697,9 +2706,19 @@
     "url" : "https://www.acfun.cn/v/ac47527627",
     "pt" : "A"
   } ],
+  "2026-07-01" : [ {
+    "liveDate" : "2026-07-01",
+    "url" : "https://www.bilibili.com/video/BV19ATv6kESc/",
+    "pt" : "B"
+  } ],
   "2026-05-28" : [ {
     "liveDate" : "2026-05-28",
     "url" : "https://www.acfun.cn/v/ac48565078",
+    "pt" : "A"
+  } ],
+  "2026-07-02" : [ {
+    "liveDate" : "2026-07-02",
+    "url" : "https://www.acfun.cn/v/ac48661373",
     "pt" : "A"
   } ],
   "2026-05-27" : [ {
@@ -2712,9 +2731,23 @@
     "url" : "https://www.bilibili.com/video/BV1uhVN6eEn6/",
     "pt" : "B"
   } ],
+  "2026-07-03" : [ {
+    "liveDate" : "2026-07-03",
+    "url" : "https://www.acfun.cn/v/ac48664479",
+    "pt" : "A"
+  } ],
   "2026-05-25" : [ {
     "liveDate" : "2026-05-25",
     "url" : "https://www.bilibili.com/video/BV1t7Go63ERA/",
+    "pt" : "B"
+  } ],
+  "2026-07-04" : [ {
+    "liveDate" : "2026-07-04",
+    "url" : "https://www.acfun.cn/v/ac48666920",
+    "pt" : "A"
+  }, {
+    "liveDate" : "2026-07-04",
+    "url" : "https://www.bilibili.com/video/BV1uHMw6LEm6/",
     "pt" : "B"
   } ],
   "2025-06-20" : [ {
@@ -2793,6 +2826,25 @@
   }, {
     "liveDate" : "2025-06-18",
     "url" : "https://www.bilibili.com/video/BV1TUNEzcEz6/",
+    "pt" : "B"
+  } ],
+  "2026-06-29" : [ {
+    "liveDate" : "2026-06-29",
+    "url" : "https://www.bilibili.com/video/BV1CDKX66E5z/",
+    "pt" : "B"
+  } ],
+  "2026-06-28" : [ {
+    "liveDate" : "2026-06-28",
+    "url" : "https://www.acfun.cn/v/ac48648289",
+    "pt" : "A"
+  }, {
+    "liveDate" : "2026-06-28",
+    "url" : "https://www.bilibili.com/video/BV1r6TT6CEX1/",
+    "pt" : "B"
+  } ],
+  "2026-06-27" : [ {
+    "liveDate" : "2026-06-27",
+    "url" : "https://www.bilibili.com/video/BV1H27n6VEh2/",
     "pt" : "B"
   } ],
   "2026-06-25" : [ {
