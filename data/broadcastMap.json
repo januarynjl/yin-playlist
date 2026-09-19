@@ -1965,6 +1965,10 @@
   } ],
   "2026-09-09" : [ {
     "liveDate" : "2026-09-09",
+    "url" : "https://www.acfun.cn/v/ac48837049",
+    "pt" : "A"
+  }, {
+    "liveDate" : "2026-09-09",
     "url" : "https://www.bilibili.com/video/BV12gYx6TEvK/",
     "pt" : "B"
   } ],
@@ -2004,6 +2008,15 @@
     "url" : "https://www.bilibili.com/video/BV1ZkLizWEKv",
     "pt" : "B"
   } ],
+  "2026-09-11" : [ {
+    "liveDate" : "2026-09-11",
+    "url" : "https://www.acfun.cn/v/ac48841908",
+    "pt" : "A"
+  }, {
+    "liveDate" : "2026-09-11",
+    "url" : "https://www.bilibili.com/video/BV1koY26xEDv/",
+    "pt" : "B"
+  } ],
   "2025-04-14" : [ {
     "liveDate" : "2025-04-14",
     "url" : "https://www.acfun.cn/v/ac47139220",
@@ -2011,6 +2024,15 @@
   }, {
     "liveDate" : "2025-04-14",
     "url" : "https://www.bilibili.com/video/BV1ezoLYDEac/",
+    "pt" : "B"
+  } ],
+  "2026-09-10" : [ {
+    "liveDate" : "2026-09-10",
+    "url" : "https://www.acfun.cn/v/ac48839504",
+    "pt" : "A"
+  }, {
+    "liveDate" : "2026-09-10",
+    "url" : "https://www.bilibili.com/video/BV1aMYu6eEfV/",
     "pt" : "B"
   } ],
   "2025-04-15" : [ {
@@ -2022,6 +2044,11 @@
     "url" : "https://www.bilibili.com/video/BV1k5oFYXEbK/",
     "pt" : "B"
   } ],
+  "2026-09-13" : [ {
+    "liveDate" : "2026-09-13",
+    "url" : "https://www.acfun.cn/v/ac48845532",
+    "pt" : "A"
+  } ],
   "2025-04-16" : [ {
     "liveDate" : "2025-04-16",
     "url" : "https://www.acfun.cn/v/ac47147533",
@@ -2031,6 +2058,11 @@
     "url" : "https://www.bilibili.com/video/BV1gVoMYxEVw/",
     "pt" : "B"
   } ],
+  "2026-09-12" : [ {
+    "liveDate" : "2026-09-12",
+    "url" : "https://www.acfun.cn/v/ac48843577",
+    "pt" : "A"
+  } ],
   "2025-04-17" : [ {
     "liveDate" : "2025-04-17",
     "url" : "https://www.acfun.cn/v/ac47151701",
@@ -2038,6 +2070,43 @@
   }, {
     "liveDate" : "2025-04-17",
     "url" : "https://www.bilibili.com/video/BV1Le5YzgEx8/",
+    "pt" : "B"
+  } ],
+  "2026-09-15" : [ {
+    "liveDate" : "2026-09-15",
+    "url" : "https://www.acfun.cn/v/ac48850504",
+    "pt" : "A"
+  }, {
+    "liveDate" : "2026-09-15",
+    "url" : "https://www.bilibili.com/video/BV1zWeE6uEsd/",
+    "pt" : "B"
+  } ],
+  "2026-09-14" : [ {
+    "liveDate" : "2026-09-14",
+    "url" : "https://www.bilibili.com/video/BV1mAYy6REa9/",
+    "pt" : "B"
+  } ],
+  "2026-09-17" : [ {
+    "liveDate" : "2026-09-17",
+    "url" : "https://www.bilibili.com/video/BV1Bmeg6SEeU/",
+    "pt" : "B"
+  } ],
+  "2026-09-16" : [ {
+    "liveDate" : "2026-09-16",
+    "url" : "https://www.acfun.cn/v/ac48852948",
+    "pt" : "A"
+  }, {
+    "liveDate" : "2026-09-16",
+    "url" : "https://www.bilibili.com/video/BV1XNew6jEts/",
+    "pt" : "B"
+  } ],
+  "2026-09-18" : [ {
+    "liveDate" : "2026-09-18",
+    "url" : "https://www.acfun.cn/v/ac48857735",
+    "pt" : "A"
+  }, {
+    "liveDate" : "2026-09-18",
+    "url" : "https://www.bilibili.com/video/BV16Yem6REtR/",
     "pt" : "B"
   } ],
   "2025-04-30" : [ {
