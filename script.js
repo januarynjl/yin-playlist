@@ -198,7 +198,7 @@ layui.use(function(){
             size:'lg',
             data: playList,
             cols: [[
-                {type: 'numbers', title: '序号',width:60},
+                {type: 'numbers', title: '序号',width:80},
                 {field:'sName', title: '歌名',maxWidth:300,minWidth:150, templet: function(d) {
                         return d.sName+ (d.isHot > 0  ? '<img src="img/hot.gif" >' : '')+ (d.isNew> 0  ? '<img src="img/new.gif" >' : '');
                     }},
@@ -256,7 +256,7 @@ layui.use(function(){
         }else if(field.sPre =="open"){
             table.reload('playList-table', {
                 cols: [[
-                    {type: 'numbers', title: '序号',width:60},
+                    {type: 'numbers', title: '序号',width:80},
                     {field:'sName', title: '歌名',maxWidth:300,minWidth:150},
                     {field:'sSinger', title: '歌手', width:150},
                     {field:'sSign', title: '风格', width:120},
